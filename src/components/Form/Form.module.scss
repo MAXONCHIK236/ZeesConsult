@@ -1,0 +1,61 @@
+.Form {
+  width: 100%;
+  height: auto;
+  padding-top: 90px;
+  .Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+    border-radius: 8px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 36%;
+    .questions {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      a {
+        font-family: "Poppins", sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+        color: rgba(0, 74, 173, 1);
+        text-align: center;
+      }
+    }
+  }
+  button {
+    padding: 15px;
+    background-color: rgba(0, 74, 173, 1);
+    color: white;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Form{
+      height:auto ;
+  }
+  .Card{
+    width: 60% !important;
+  }
+  @media  (max-width: 425px){
+    .Card{
+      width: 100% !important;
+      margin-bottom: 30px;
+    }
+    .Form{
+      height:auto ;
+  }
+  }
+  @media  (max-width: 555px){
+    .Card{
+      width: 100% !important;
+      margin-bottom: 30px;
+    }
+    .Form{
+      height:auto ;
+  }
+  }
+}

@@ -1,0 +1,35 @@
+.ShemeCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+
+  .Scheme__text {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 40%;
+    border: 2px solid rgba(95, 160, 250, 1) ;
+    border-radius: 8px;
+    b {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      size: 20px;
+      color: rgba(0, 49, 115, 1);
+      text-align: center;
+    }
+    p {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      size: 20px;
+      color: rgba(0 0 1);
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .Scheme__text{
+     width: 80% !important;
+
+  }
+}
+

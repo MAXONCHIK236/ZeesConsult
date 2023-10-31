@@ -1,0 +1,27 @@
+.Sheme{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    .Paragraph {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .shem__info{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+}
+@media screen and (max-width: 1024px) {
+  .Sheme{
+      height:auto ;
+      padding-top: 20px;
+
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Sheme{
+      height:auto ;
+  }
+}

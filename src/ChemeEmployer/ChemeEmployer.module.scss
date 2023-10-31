@@ -1,0 +1,48 @@
+.ChemeEmployer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 56%;
+  height: 300px;
+  gap: 10px;
+  img {
+    display: flex;
+    align-items: start;
+  }
+  .block {
+    border: 2px solid rgba(0, 74, 173, 1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    p {
+      font-family: "Poppins",sans-serif;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 33px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: rgba(0, 74, 173, 1);
+    }
+  }
+ 
+}
+@media (max-width: 768px){
+  .ChemeEmployer{
+    width: 100%;
+  }
+}
+@media (max-width: 425px){
+  .block {
+    p {
+      font-size: 16px !important;
+    }
+  }
+}
+@media (max-width: 555px){
+  .block {
+    p {
+      font-size: 16px !important;
+    }
+  }
+}

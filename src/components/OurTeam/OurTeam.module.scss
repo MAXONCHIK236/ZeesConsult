@@ -1,0 +1,93 @@
+.OurTeam {
+  width: 100%;
+  background: #e8eff8;
+  height: auto;
+  margin-top: 90px;
+  padding-bottom: 30px;
+
+  .Paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+  .render__text {
+    p {
+      font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      color: rgb(0, 0, 1);
+    }
+  }
+  .our__left {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 24px;
+    width: 65%;
+  }
+  .our__right {
+    display: flex;
+    gap: 24px;
+  }
+  .our__flex {
+    display: flex;
+    gap: 34px;
+    margin-top: 64px;
+  }
+
+}
+@media (max-width: 1024px) {
+  .OurTeam {
+    .render__text {
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media (max-width: 425px) {
+  .OurTeam {
+    .our__left {
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      p {
+        font-size: 12px;
+        text-align: center;
+        width: 100%;
+      }
+    }
+    .our__right {
+      display: flex;
+      flex-direction: column;
+      gap: 54px;
+    }
+  }
+}
+@media (max-width: 555px) {
+  .OurTeam {
+    height: auto;
+    .our__left {
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      p {
+        font-size: 12px;
+        text-align: center;
+        width: 100%;
+      }
+    }
+    .our__right {
+      display: flex;
+      flex-direction: column;
+      gap: 54px;
+    }
+    .our__flex {
+      display: flex;
+      flex-direction: column-reverse !important;
+      gap: 150px;
+    }
+  }
+}

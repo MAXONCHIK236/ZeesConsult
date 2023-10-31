@@ -1,0 +1,29 @@
+.team__card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 303px;
+  align-items: center;
+  text-align: center;
+  img {
+    border: none;
+    border-radius: 12px;
+  }
+  p {
+    font-family: "Ropa Sans", sans-serif;
+   font-size:16px ; 
+    color:rgba(75, 75, 75, 0.7) ;
+    
+  }
+  h1 {
+    font-family: "Ropa Sans", sans-serif;
+    font-size: 32px;
+    color: rgba(0,0,1);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .team__card{
+     width: 70%;
+  }
+
+}

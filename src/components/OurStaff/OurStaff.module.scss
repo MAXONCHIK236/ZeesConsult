@@ -1,0 +1,17 @@
+.OurStaff{
+    width: 100%;
+    height: 120vh;
+    .Paragraph{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+       }
+       .our__flex{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+      
+       }
+}

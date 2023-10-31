@@ -1,0 +1,71 @@
+.QuestionsSheme {
+  width: 62%;
+  .sheme1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    .flex {
+      display: flex;
+      gap: 24px;
+    }
+    .text__sheme {
+      border: 2px solid rgba(92, 162, 255, 1);
+      border-radius: 8px;
+      padding: 5px;
+      text-align: start;
+    }
+    .blue__ram {
+      color: white;
+      background-color: rgba(0, 74, 173, 1);
+      text-align: center;
+      padding: 35px;
+      border-radius: 8px;
+      border:2px solid rgba(92, 162, 255, 1); ;
+    }
+    p {
+      font-family: "Poppins", sans-serif;
+      font-size: 28px;
+      font-weight: 500;
+      color: rgb(0, 0, 1);
+    }
+   a{
+        font-family: "Poppins", sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        color: white;
+    }
+  }
+  .QuestionsSheme {
+    p{
+      font-size: 14px !important;
+    }
+    }
+}
+@media  (max-width: 425px){
+  .flex{
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
+  .text__sheme{
+    text-align: center !important;
+  }
+  a{
+    font-size: 16px !important;
+  }
+ };
+ @media  (max-width: 555px){
+  .flex{
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
+  .text__sheme{
+    text-align: center !important;
+  }
+  a{
+    font-size: 16px !important;
+  }
+ }

@@ -1,0 +1,43 @@
+.About{
+    width: 100%;
+    height: auto;
+    padding-top: 200px;
+    .About__img{
+        background-image: url(../../assents/about_img/bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 735px;
+       z-index: 0;
+       padding-top: 500px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        img{
+          position: absolute;
+          left: 1%;
+          top: 89%;
+        }
+       p{
+        font-family: "Poppins",sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        text-align: center;
+        width: 50%;
+      }
+    }
+    @media  (max-width: 925px){
+      .About__img{
+        img{
+          position: absolute;
+          left: 1%;
+          top: 1%;
+        }
+      }
+    }
+    @media  (max-width: 425px){
+      p{
+        font-size: 16px !important;
+      }
+
+}
+}

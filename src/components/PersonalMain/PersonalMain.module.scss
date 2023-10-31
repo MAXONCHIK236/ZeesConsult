@@ -1,0 +1,148 @@
+.PersonalMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 250px;
+  gap: 80px;
+  .Paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 48%;
+    button {
+      padding: 15px;
+      background-color: rgba(0, 74, 173, 1);
+      color: white;
+      font-family: "Poppins", sans-serif;
+      font-size: 22px;
+      font-weight: 500;
+    }
+  }
+  .PersonalFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    .top {
+      width: 80.5%;
+    }
+    .under {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      width: 80%;
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .PersonalMain {
+    .Paragraph {
+      width: 70%;
+    }
+    .PersonalFlex {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 80px;
+      .top {
+        width: 90%;
+        p {
+          font-size: 16px !important;
+        }
+      }
+      .middle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 80%;
+        }
+      }
+      .under {
+        justify-content: center;
+        width: 90%;
+      }
+    }
+  }
+}
+@media (max-width: 425px) {
+  .PersonalMain {
+    height: auto;
+    .Paragraph {
+      width: 100% !important;
+      gap: 50px;
+      align-items: center;
+    }
+    .PersonalFlex {
+      padding-top: 45px;
+      .top {
+        width: 100%;
+        p {
+          font-size: 12px !important;
+        }
+      }
+      .middle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 80%;
+        }
+      }
+      .under {
+        justify-content: center;
+        width: 90%;
+        p {
+          font-size: 10px;
+        }
+      }
+      button {
+        font-size: 10px;
+      }
+    }
+  }
+}
+@media (max-width: 555px) {
+  .PersonalMain {
+    height: auto;
+    .Paragraph {
+      width: 100% !important;
+      gap: 50px;
+      align-items: center;
+    }
+    .PersonalFlex {
+      padding-top: 45px;
+      .top {
+        width: 100%;
+        p {
+          font-size: 12px !important;
+        }
+      }
+      .middle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 80%;
+        }
+      }
+      .under {
+        justify-content: center;
+        width: 90%;
+        p {
+          font-size: 10px;
+        }
+      }
+      button {
+        font-size: 10px;
+      }
+    }
+  }
+}
