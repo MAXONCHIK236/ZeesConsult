@@ -12,17 +12,16 @@ const Footer = () => {
         <div className={styles.center}>
         <div className={styles.center__info}>
           <div className={styles.text__link}>
-            <a href="">Главная</a>
-            <a href=""> О нас </a>
+            <a href="/">Главная</a>
+            <a href="/AboutUs"> О нас </a>
             <div className={styles.dropdown}> 
                 <button className={styles.dropbtn}>Услуги <img src={headerArrow} alt="arrow" /> </button> 
                 <div className={styles.contentdown}> 
                   <a href="/ServicePersonal">Для персонала</a> 
-                  <a href="/ServiceEmployer">Для работодателей </a> 
-                  
+                  <a href="/ServiceEmployer">Для работодателей </a>  
                 </div> 
               </div>
-            <a href="">Контакты</a>
+            <a href="/Contact">Контакты</a>
           </div>
           <div className={styles.impersssum}>
             <a>Impressum</a>
@@ -32,7 +31,7 @@ const Footer = () => {
         <div className={styles.Footer__rules}>
           <p>ZESS Consulring права защищены 2023</p>
           <p>Политика конфинденциальности</p>
-          <p>Отправить форму</p>
+          <a href="/Contact">Отправить форму</a>
         </div>
         </div>
       </div>

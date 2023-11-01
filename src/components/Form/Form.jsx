@@ -17,7 +17,7 @@ const Form = () => {
             <a>Вы работодатель?</a>
             <a>Вы Студент?</a>
             </div>
-            <button>Заполнить форму</button>
+            <button><a href='/Contacts' >Заполнить форму</a></button>
             </div>
         </div>
       

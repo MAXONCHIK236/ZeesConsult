@@ -111,6 +111,29 @@
   .error {
     color: red;
   }
+  .successMessage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    .succesfull{
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      border: 1px solid rgba(0, 74, 173, 1) ;
+      padding: 20px;
+    }
+    button{
+      padding: 15px;
+      background-color: rgba(0, 74, 173, 1);
+      color: white;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      width: 15%;
+    }
+  }
 
   
   @media (max-width: 1320px) {
@@ -131,7 +154,7 @@
       width: 60%;
     }
     .btn__form {
-      width: 15%;
+      width: 20%;
     }
     .contact__agree {
       width: 60% !important;
@@ -140,6 +163,11 @@
   @media (max-width: 768px) {
     .btn__form {
       width: 25%;
+    }
+    .successMessage{
+      button{
+        width: 25%;
+      }
     }
   }
   @media (max-width: 425px) {
@@ -165,6 +193,12 @@
     .contact__agree {
       width: 100% !important;
     }
+    .successMessage{
+      button{
+        width: 20% !important;
+      }
+    }
+  
   }
   @media (max-width: 555px) {
     .dropdown{
@@ -189,7 +223,25 @@
     .contact__agree {
       width: 100% !important;
     }
+    .successMessage{
+      button{
+        width: 55% !important;
+      }
+    }
   }
+  @media (max-width: 325px){
+    .contact__agree{
+      p{
+        font-size: 13px !important;
+      }
+    }
+    .successMessage{
+      button{
+        width: 65% !important;
+      }
+    }
+  }
+
 }
 
 

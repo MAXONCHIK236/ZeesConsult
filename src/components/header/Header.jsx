@@ -33,32 +33,16 @@ const Header = () => {
             </div>
             <a href="/Contact">Контакты</a>
           </div>
-          {/* <div className={styles.content__adaptive}>
-            <div onClick={toggleMenu}>
-              <img src={Burgermenu} alt="Burgermenu" />
-            </div>
-          </div>
-          <div className={styles.mobileMenu}>
-            <nav>
-              <ul>
-                <li>
-                  <a href="#">Главная</a>
-                </li>
-                <li>
-                  <a href="#">О нас</a>
-                </li>
-                <li>
-                  <a href="#">Услуги</a>
-                </li>
-                <li>
-                  <a href="#">Контакты</a>
-                </li>
-              </ul>
-            </nav>
-          </div> */}
+
           <div className={styles.menu}>
           <BurgerMenu/>
           </div>
+          <select>
+            <option value="option1"><img src="" alt="" /> <a>Русский</a></option>
+            <option value="option2"><img src="" alt="" /> <a>Ger</a> </option>
+            <option value="option3"><img src="" alt="" /> <a>Eng</a></option> 
+  
+          </select>
         </div>
       </div>
     </div>

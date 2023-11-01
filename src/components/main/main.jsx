@@ -19,7 +19,7 @@ const Main = () => {
               <br /> на территории ЕС, квалифицированно и надежно
             </p>
             <div className={styles.button}>
-          <Button />
+          <Button link="/AboutUs" />
         </div>
           </div>
   

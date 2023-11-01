@@ -33,7 +33,7 @@ const About = () => {
             {renderText}
             <div className={styles.button}>
               <img src={CursorLeft} alt="left" />
-              <Button text="Подробнее" />
+              <Button link="/AboutUs" text="Подробнее" />
             </div>
           </div>
         </div>

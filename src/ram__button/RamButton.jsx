@@ -4,7 +4,7 @@ const RamButton = () => {
   return (
     <div className={styles.RamButton}>
       <div className={styles.text}>
-       <p>Если у вас появился интерес к этой программе заполните контакную форму</p>
+       <a href='/Contact'>Если у вас появился интерес к этой программе заполните контакную форму</a>
       </div>
       <button>Заполнить форму</button>
     </div>
