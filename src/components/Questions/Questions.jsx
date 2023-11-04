@@ -4,15 +4,17 @@ import { questionarr } from './../../constants/questions';
 import QuestionSheme from "../QuestionsSheme/QuestionSheme";
 import ArrowDown from "../../assents/team_img/arrow.svg"
 import Devider from "../../devider/Devider";
+import { useTranslation } from "react-i18next";
 const Questions = () => {
+  const {t} = useTranslation();
     const renderSheme = useMemo(
         () => questionarr.map((article) => <QuestionSheme {...article} />),
-        []
+        [t]
       );
   return (
     <div className={styles.Questions}>
          <div className={styles.Paragraph}>
-        <Devider text="Наша Команда" />
+        <Devider text={t("About.OurTeam")} />
         <img src={ArrowDown} alt="Arrow" />
       </div>
       <div  className="container2">

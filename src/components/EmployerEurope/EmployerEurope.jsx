@@ -7,7 +7,9 @@ import { RamText4 } from '../../constants/ram'
 import BlueRam from "../../Blue__Ram2/BlueRam";
 import img1 from "../../assents/employer/bg1.svg"
 import img2 from "../../assents/employer/bg2.svg"
+import { useTranslation } from "react-i18next";
 const EmployerEurope = () => {
+  const {t} = useTranslation();
     const renderInfo = useMemo(
         () => RamText4.map((article) => <BlueRam {...article} />),
         []
@@ -15,7 +17,7 @@ const EmployerEurope = () => {
   return (
     <div className={styles.EmployerEurope}>
          <div className={styles.Paragraph}>
-        <Devider text="Наша Команда" />
+        <Devider text={t("About.OurTeam")} />
         <img src={ArrowDown} alt="Arrow" />
       </div>
      <div className="container">

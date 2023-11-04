@@ -1,7 +1,9 @@
 import React from 'react'
 import styles from "./Form.module.scss"
 import imgForm from "../../assents/form/img.svg"
+import { useTranslation } from 'react-i18next'
 const Form = () => {
+  const {t} = useTranslation();
   return (
     <div className={styles.Form}>
         <div style={{
@@ -12,12 +14,12 @@ const Form = () => {
         <div className={styles.Card}>
             <img src={imgForm} alt="img" />
             <div className={styles.questions}>
-            <a>Вы ищите работу за рубежом?</a>
-            <a>Вас заинтересовали услуги?</a>
-            <a>Вы работодатель?</a>
-            <a>Вы Студент?</a>
+            <a>{t("Form.text")}</a>
+            <a>{t("Form.text2")}</a>
+            <a>{t("Form.text3")}</a>
+            <a>{t("Form.text4")}</a>
             </div>
-            <button><a href='/Contacts' >Заполнить форму</a></button>
+            <button><a href='/Contacts' >{t("Form.text5")}</a></button>
             </div>
         </div>
       

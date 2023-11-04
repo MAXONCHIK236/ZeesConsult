@@ -4,7 +4,9 @@ import emailjs from "emailjs-com";
 import ArrowDown from "../../assents/arrow_down/Vector.svg";
 import { Button } from "bootstrap";
 import succesfull from "../../assents/header_img/Vector.svg"
+import { useTranslation } from "react-i18next";
 const ContactForm = () => {
+  const {t} = useTranslation();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -35,37 +37,37 @@ const ContactForm = () => {
       setCheckboxError("");
     }
     if (name.trim() === "") {
-      setNameError("Заполните поле");
+      setNameError(t("Contact.add"));
       isValid = false;
     } else {
       setNameError("");
     }
     if (name.trim() === "") {
-      setLastError("Заполните поле");
+      setLastError(t("Contact.add"));
       isValid = false;
     } else {
       setLastError("");
     }
     if (name.trim() === "") {
-      setPasswordError("Заполните поле");
+      setPasswordError(t("Contact.add"));
       isValid = false;
     } else {
       setPasswordError("");
     }
     if (name.trim() === "") {
-      setEmailError("Заполните поле");
+      setEmailError(t("Contact.add"));
       isValid = false;
     } else {
       setEmailError("");
     }
     if (name.trim() === "") {
-      setSublectError("Заполните поле");
+      setSublectError(t("Contact.add"));
       isValid = false;
     } else {
       setSublectError("");
     }
     if (name.trim() === "") {
-      setMessageError("Заполните поле");
+      setMessageError(t("Contact.add"));
       isValid = false;
     } else {
       setMessageError("");
@@ -124,13 +126,13 @@ const ContactForm = () => {
     <div className={styles.successMessage}>
       <div className={styles.succesfull}>
         <img src={succesfull} alt="" />
-      <p>Ваша форма отправлена успешно!</p>
+      <p>{t("Contact.form")}</p>
       </div>
       < button
         onClick={() => {
           setIsFormSubmitted(false);
         }}
-      >Перезагрузить форму</button>
+      >{t("Contact.reload")}</button>
        
    
     </div>
@@ -138,10 +140,10 @@ const ContactForm = () => {
       <div style={{ width: "90%" }} className="container">
         <form>
           <div className={styles.Paragraph}>
-            <h1>Заполните ваши данные</h1>
+            <h1>{t("Contact.valueUser")}</h1>
           </div>
           <input
-            placeholder="Name"
+            placeholder={t("Contact.name")}
             type="text"
             value={name}
             onChange={(e) => {
@@ -155,13 +157,13 @@ const ContactForm = () => {
           />
           {nameError && <span className={styles.error}>{nameError}</span>}
           <input
-            placeholder="LastName"
+           placeholder={t("Contact.lastname")}
             type="text"
             value={text}
             onChange={(e) => {
               setLastName(e.target.value);
               if (e.target.value.trim() === "") {
-                setLastError("Name is required");
+                setLastError("LastName is required");
               } else {
                 setLastError("");
               }
@@ -170,13 +172,13 @@ const ContactForm = () => {
           {LastError && <span className={styles.error}>{LastError}</span>}
 
           <input
-            placeholder="Number"
+            placeholder={t("Contact.number")}
             type="text"
             value={password}
             onChange={(e) => {
               setPassword(e.target.value);
               if (e.target.value.trim() === "") {
-                setPasswordError("Name is required");
+                setPasswordError("Number is required");
               } else {
                 setPasswordError("");
               }
@@ -186,13 +188,13 @@ const ContactForm = () => {
             <span className={styles.error}>{PasswordError}</span>
           )}
           <input
-            placeholder="Email"
+            placeholder={t("Contact.Email")}
             type="email"
-            value1={email}
+            value={email}
             onChange={(e) => {
               setEmail(e.target.value);
               if (e.target.value.trim() === "") {
-                setEmailError("Name is required");
+                setEmailError("Email is required");
               } else {
                 setEmailError("");
               }
@@ -211,47 +213,47 @@ const ContactForm = () => {
               onChange={(e) => {
                 setSubject(e.target.value);
                 if (e.target.value.trim() === "") {
-                  setSublectError("Name is required");
+                  setSublectError("subject is required");
                 } else {
                   setSublectError("");
                 }
               }}
             >
               <option value="">
-                <p>Выбор темы запроса </p>
+                <p> ={t("Contact.choise")} </p>
                 <img src={ArrowDown} alt="ArrowDown" />
               </option>
               <option
                 onChange={(e) => {
                   setSubject(e.target.value);
                   if (e.target.value.trim() === "") {
-                    setSublectError("Name is required");
+                    setSublectError("Student is required");
                   } else {
                     setSublectError("");
                   }
                 }}
                 value="option1"
               >
-                Студент
+                {t("Contact.Student")}
               </option>
               <option
                 onChange={(e) => {
                   setSubject(e.target.value);
                   if (e.target.value.trim() === "") {
-                    setSublectError("Name is required");
+                    setSublectError("Employer is required");
                   } else {
                     setSublectError("");
                   }
                 }}
                 value="option2"
               >
-                Работодатель
+                {t("Contact.employer")}
               </option>
             </select>
           </div>
           {SubjectError && <span className={styles.error}>{SubjectError}</span>}
           <div className={styles.message}>
-            <h1>Введите сообщение</h1>
+            <h1>{t("Contact.message")}</h1>
           </div>
           <div className={styles.form__message}>
             <input
@@ -284,8 +286,7 @@ const ContactForm = () => {
               }}
             />
             <p>
-              Нажимая кнопку “Продолжить”, Вы даете согласие на обработку Ваших
-              личных данных компанией ZESS Consulting.
+            {t("Contact.next")}
             </p>
           </div>
           {checkboxError && <span className={styles.error}>{checkboxError}</span>}
@@ -294,7 +295,7 @@ const ContactForm = () => {
             className={styles.btn__form}
             disabled={buttonDisabled}
           >
-            {buttonDisabled ? "Processing..." : "Отправить"}
+            {buttonDisabled ? "Processing..." : t("Contact.send")}
           </button>
         </form>
       </div>

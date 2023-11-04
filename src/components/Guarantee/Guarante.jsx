@@ -5,8 +5,9 @@ import guarantee from "../../assents/guarantee_img/guarantee.svg";
 import { RamText3 } from "../../constants/ram";
 import Devider from "../../devider/Devider";
 import Ram from "../../blue__Ram/Ram";
-
+import { useTranslation } from "react-i18next";
 const Guarante = () => {
+  const {t} = useTranslation();
   const renderText = useMemo(
     () => RamText3.map((article) => <Ram {...article} />),
     []
@@ -14,7 +15,7 @@ const Guarante = () => {
   return (
     <div className={styles.guarantee}>
       <div className={styles.Paragraph}>
-        <Devider text="ГАРАНТИЯ" />
+        <Devider text={t("Paragraph.garantee")} />
       </div>
       <div className="container">
         <div className={styles.guarantee__flex}>

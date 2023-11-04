@@ -8,7 +8,9 @@ import { RamText, RamText2 } from "./../../constants/ram";
 import CursorLeft from "../../assents/cursor_decoration/LeftCursor.svg";
 import Button from "../button/button";
 import cursortop from "../../assents/cursor_decoration/TopCursor.svg";
+import { useTranslation } from "react-i18next";
 const About = () => {
+  const { t } = useTranslation();
   const renderCard = useMemo(
     () => CardInfoArr.map((article) => <Team {...article} />),
     []
@@ -24,7 +26,7 @@ const About = () => {
   return (
     <div className={styles.About}>
       <div className={styles.Paragraph}>
-        <Devider text="О нас" />
+        <Devider text={t("header.about")} />
       </div>
       <div className="container">
         <div className={styles.about__flex}>
@@ -33,7 +35,7 @@ const About = () => {
             {renderText}
             <div className={styles.button}>
               <img src={CursorLeft} alt="left" />
-              <Button link="/AboutUs" text="Подробнее" />
+              <Button link="/AboutUs" text={t("header.next")} />
             </div>
           </div>
         </div>

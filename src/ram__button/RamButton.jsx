@@ -1,12 +1,14 @@
 import React from 'react'
 import styles from "./RamButton.module.scss"
+import { useTranslation } from 'react-i18next'
 const RamButton = () => {
+   const {t} = useTranslation();
   return (
     <div className={styles.RamButton}>
       <div className={styles.text}>
-       <a href='/Contact'>Если у вас появился интерес к этой программе заполните контакную форму</a>
+       <a href='/Contact'>{t("About.interes")}</a>
       </div>
-      <button>Заполнить форму</button>
+      <button>{t("Form.text5")}</button>
     </div>
   )
 }

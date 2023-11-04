@@ -7,7 +7,9 @@ import { PicturesArr, RamText8 } from "../../constants/ram";
 import BlueRam from "../../Blue__Ram2/BlueRam";
 import ArrowDown from "../../assents/team_img/arrow.svg";
 import Ramka from "../../Ram/Ramka";
+import { useTranslation } from "react-i18next";
 const Consulting = () => {
+  const {t} = useTranslation();
   const renderRam = useMemo(
     () => RamText8.map((article) => <BlueRam {...article} />),
     []
@@ -24,7 +26,7 @@ const Consulting = () => {
   return (
     <div className={styles.Consulting}>
       <div className={styles.Paragraph}>
-        <Devider text="Консультация" />
+        <Devider text={t("Paragraph.Consulting")} />
       </div>
       <div style={{ display:"flex",
         justifyContent:"center",

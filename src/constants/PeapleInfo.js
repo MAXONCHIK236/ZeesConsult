@@ -4,12 +4,12 @@ import CardImg2 from "../assents/peaple_img/Leader.svg";
 export const CardInfoArr = [
   {
     img: CardImg,
-    Name: "Stepan Zenin",
-    WhoIsIt: "Руководитель ZESS CONSULTING",
+    Name: "TeamArr.Name",
+    WhoIsIt: "TeamArr.WhoIsIt",
   },
   {
     img: CardImg2,
-    Name: "Baktygul Zenin",
-    WhoIsIt: "Замиститель руоводителя ZESS CONSULTING",
+    Name: "TeamArr.Name2",
+    WhoIsIt: "TeamArr.WhoIsIt2",
   },
 ];

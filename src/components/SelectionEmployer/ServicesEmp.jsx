@@ -4,7 +4,9 @@ import { RamText5 } from "../../constants/ram";
 import Ram3 from "../../blue__Ram3/Ram3";
 import { SchemeText } from "../../constants/sheme";
 import ChemeEmployer from "../../ChemeEmployer/ChemeEmployer";
+import { useTranslation } from "react-i18next";
 const ServicesEmp = () => {
+  const {t} = useTranslation();
   const renderCard = useMemo(
     () => RamText5.map((article) => <Ram3 {...article} />),
     []
@@ -16,7 +18,7 @@ const ServicesEmp = () => {
   return (
     <div className={styles.ServicesEmployer}>
       <div className={styles.Paragraph}>
-        <h1>Целевой подбор персонала в соответствии с вашими требованиями</h1>
+        <h1>{t("employer.personal")}</h1>
       </div>
       <div style={{
         display:"flex",

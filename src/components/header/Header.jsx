@@ -4,12 +4,20 @@ import logo from "../../assents/header_img/logo.svg";
 import headerArrow from "../../assents/header_img/headerArrow.svg";
 import Burgermenu from "../../assents/header_img/headerBurgerMenu.svg";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
-const Header = () => {
-    const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(true);
-    const toggleMenu = () => {
-      setIsMobileMenuVisible(!isMobileMenuVisible);
-    };
-  
+import "../../i18n.js";
+import { useTranslation } from "react-i18next";
+import TranslationDropdown from "../TranslationDrop/TranslationDropdown";
+function Header() {
+  const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(true);
+  const toggleMenu = () => {
+    setIsMobileMenuVisible(!isMobileMenuVisible);
+  };
+  const { t } = useTranslation();
+  const { i18n } = useTranslation();
+  let handleClick = (lang) => {
+    i18n.changeLanguage(lang);
+  };
+  const [lng, setLng] = useState(false);
   return (
     <div className={styles.header}>
       <div className="container">
@@ -20,33 +28,31 @@ const Header = () => {
             </a>
           </div>
           <div className={styles.content}>
-            <a href="/">Главная</a>
-            <a href="/AboutUs"> О нас </a>
+            <a href="/">{t("header.home")}</a>
+            <a href="/AboutUs">{t("header.about")} </a>
             <div className={styles.dropdown}>
               <button className={styles.dropbtn}>
-                Услуги <img src={headerArrow} alt="arrow" />{" "}
+                {t("header.services")} <img src={headerArrow} alt="arrow" />{" "}
               </button>
               <div className={styles.contentdown}>
-                <a href="/ServicePersonal">Для персонала</a>
-                <a href="/ServiceEmployer">Для работодателей </a>
+                <a href="/ServicePersonal">{t("header.forpersonal")}</a>
+                <a href="/ServiceEmployer">{t("header.foremployer")} </a>
               </div>
             </div>
-            <a href="/Contact">Контакты</a>
+            <a href="/Contact">{t("header.contact")}</a>
           </div>
 
           <div className={styles.menu}>
-          <BurgerMenu/>
+            <BurgerMenu />
+         
           </div>
-          <select>
-            <option value="option1"><img src="" alt="" /> <a>Русский</a></option>
-            <option value="option2"><img src="" alt="" /> <a>Ger</a> </option>
-            <option value="option3"><img src="" alt="" /> <a>Eng</a></option> 
-  
-          </select>
+          <div className={styles.translation}>
+            <TranslationDropdown />
+          </div>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default Header;
