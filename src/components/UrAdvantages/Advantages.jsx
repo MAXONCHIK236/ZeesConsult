@@ -4,8 +4,9 @@ import Devider from "../../devider/Devider";
 import { RamText6 } from "../../constants/ram";
 import Ram3 from "../../blue__Ram3/Ram3";
 import RamButton from "../../ram__button/RamButton";
-
+import { useTranslation } from "react-i18next";
 const Advantages = () => {
+  const {t} = useTranslation();
   const renderCard = useMemo(
     () => RamText6.map((article) => <Ram3 {...article} />),
     []
@@ -13,7 +14,7 @@ const Advantages = () => {
   return (
     <div className={styles.Advantages}>
       <div className={styles.Paragraph}>
-        <Devider text="Ваши преимущества" />
+        <Devider text={t("employer.ur")} />
       </div>
       <div className="container">
         <div className={styles.adventage__flex}>

@@ -1,17 +1,14 @@
 import React, { useState } from "react";
-import i18n from "i18next"; // You should import your translation library
+import i18n from "i18next"; 
 import styles from "./TranslationDropDown.module.scss";
-import { screen } from "@testing-library/react";
 import RussiaFlag from "../../assents/header_img/FlagRussia.svg";
 const TranslationDropdown = () => {
   const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);
-
   const handleLanguageChange = (event) => {
     const newLanguage = event.target.value;
     setSelectedLanguage(newLanguage);
     i18n.changeLanguage(newLanguage);
   };
-
   const languageOptions = [
     { value: "en", label: "English", icon: RussiaFlag },
     { value: "ru", label: "Русский", icon: RussiaFlag },

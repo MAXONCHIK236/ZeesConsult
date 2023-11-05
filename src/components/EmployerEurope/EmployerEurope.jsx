@@ -2,7 +2,6 @@ import React, { useMemo } from "react";
 import styles from "./EmployerEurope.module.scss"
 import ArrowDown from "../../assents/team_img/arrow.svg";
 import Devider from '../../devider/Devider'
-import Ram from '../../blue__Ram/Ram'
 import { RamText4 } from '../../constants/ram'
 import BlueRam from "../../Blue__Ram2/BlueRam";
 import img1 from "../../assents/employer/bg1.svg"

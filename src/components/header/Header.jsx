@@ -1,23 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./Header.module.scss";
 import logo from "../../assents/header_img/logo.svg";
 import headerArrow from "../../assents/header_img/headerArrow.svg";
-import Burgermenu from "../../assents/header_img/headerBurgerMenu.svg";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import "../../i18n.js";
 import { useTranslation } from "react-i18next";
 import TranslationDropdown from "../TranslationDrop/TranslationDropdown";
 function Header() {
-  const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(true);
-  const toggleMenu = () => {
-    setIsMobileMenuVisible(!isMobileMenuVisible);
-  };
   const { t } = useTranslation();
-  const { i18n } = useTranslation();
-  let handleClick = (lang) => {
-    i18n.changeLanguage(lang);
-  };
-  const [lng, setLng] = useState(false);
   return (
     <div className={styles.header}>
       <div className="container">
@@ -32,7 +22,7 @@ function Header() {
             <a href="/AboutUs">{t("header.about")} </a>
             <div className={styles.dropdown}>
               <button className={styles.dropbtn}>
-                {t("header.services")} <img src={headerArrow} alt="arrow" />{" "}
+                {t("header.services")} <img src={headerArrow} alt="arrow" />
               </button>
               <div className={styles.contentdown}>
                 <a href="/ServicePersonal">{t("header.forpersonal")}</a>
@@ -44,7 +34,6 @@ function Header() {
 
           <div className={styles.menu}>
             <BurgerMenu />
-         
           </div>
           <div className={styles.translation}>
             <TranslationDropdown />

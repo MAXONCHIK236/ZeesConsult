@@ -19,7 +19,7 @@ const Form = () => {
             <a>{t("Form.text3")}</a>
             <a>{t("Form.text4")}</a>
             </div>
-            <button><a href='/Contacts' >{t("Form.text5")}</a></button>
+            <button><a href='/Contact' >{t("Form.text5")}</a></button>
             </div>
         </div>
       

@@ -1,7 +1,7 @@
-import React from 'react'
-import styles from "./Ram.module.scss"
-import { useTranslation } from 'react-i18next'
-const Ram = ({text}) => {
+import React from "react";
+import styles from "./Ram.module.scss";
+import { useTranslation } from "react-i18next";
+const Ram = ({ text }) => {
   const { t } = useTranslation();
   return (
     <div className={styles.Ram}>
@@ -9,7 +9,7 @@ const Ram = ({text}) => {
         <p>{t(text)}</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Ram
+export default Ram;
