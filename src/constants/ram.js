@@ -3,9 +3,6 @@ import img2 from "../assents/personal/img2.svg"
 import img3 from "../assents/personal/img3.svg"
 import img4 from "../assents/personal/img4.svg"
 import img5 from "../assents/personal/img5.svg"
-
-
-
 export const RamText = [
   {
     text: "ram.text1",
@@ -49,6 +46,11 @@ export const RamText7 = [
 export const RamText8= [
   {
     text:"ram.text12",
+  }
+]
+export const RamText9= [
+  {
+    text:"ram.text13",
   }
 ]
 export const PicturesArr = [

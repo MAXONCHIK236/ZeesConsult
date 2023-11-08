@@ -1,15 +1,15 @@
 import React, { useMemo } from "react";
 import styles from "./Guarantee.module.scss";
 import CursorLeft from "../../assents/cursor_decoration/LeftCursor.svg";
-import guarantee from "../../assents/guarantee_img/guarantee.svg";
+import guarantee from "../../assents/guarantee_img/guarantee.jpg";
 import { RamText3 } from "../../constants/ram";
 import Devider from "../../devider/Devider";
-import Ram from "../../blue__Ram/Ram";
 import { useTranslation } from "react-i18next";
+import Ram3 from "../../blue__Ram3/Ram3";
 const Guarante = () => {
   const {t} = useTranslation();
   const renderText = useMemo(
-    () => RamText3.map((article) => <Ram {...article} />),
+    () => RamText3.map((article) => <Ram3 {...article} />),
     []
   );
   return (

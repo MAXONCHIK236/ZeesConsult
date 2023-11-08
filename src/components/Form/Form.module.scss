@@ -3,7 +3,6 @@
   height: auto;
   padding-top: 90px;
   padding-bottom: 90px;
-
   .Card {
     display: flex;
     flex-direction: column;
@@ -33,6 +32,9 @@
     padding: 15px;
     background-color: rgba(0, 74, 173, 1);
     color: white;
+    :hover{
+      color: yellow;
+    }
   }
 }
 @media screen and (max-width: 1200px) {

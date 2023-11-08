@@ -25,3 +25,27 @@
     color: rgba(0, 74, 173, 1);
   }
 }
+@media (max-width: 768px) {
+  .RamButton {
+    width: 90%;
+    .text {
+display: none !important;
+    }
+  }
+}
+@media (max-width: 555px) {
+  .RamButton {
+    width: 90%;
+    .text {
+display: none !important;
+    }
+  }
+}
+@media (max-width: 425px) {
+  .RamButton {
+    width: 90%;
+    .text {
+display: none !important;
+    }
+  }
+}

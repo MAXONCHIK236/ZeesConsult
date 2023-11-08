@@ -20,9 +20,6 @@
   }
   .ServicesEmp__width {
     width: 60%;
-    p {
-      font-size: 16px;
-    }
   }
   .Services__Cheme {
     display: flex;
@@ -31,16 +28,14 @@
     flex-direction: column;
     width: 100%;
   }
-
 }
 @media (max-width: 768px) {
   .ServicesEmployer {
     .Paragraph {
-  
       width: 100%;
-h1{
-  width: 100%;
-}
+      h1 {
+        width: 100%;
+      }
     }
     .ServicesEmp__width {
       width: 100%;
@@ -53,18 +48,17 @@ h1{
       width: 100%;
     }
   }
-  @media(max-width:425px){
+  @media (max-width: 425px) {
     .ServicesEmployer {
       .Paragraph {
-    
         width: 100%;
-  h1{
-    width: 100%;
-  }
+        h1 {
+          width: 100%;
+        }
       }
       .ServicesEmp__width {
         width: 100%;
-        p{
+        p {
           font-size: 14px !important;
         }
       }
@@ -74,25 +68,23 @@ h1{
         align-items: center;
         flex-direction: column;
         width: 100%;
-        gap: 80px
-        p{
+        gap: 80px p {
           font-size: 14px !important;
         }
       }
     }
   }
-  @media(max-width:555px){
+  @media (max-width: 555px) {
     .ServicesEmployer {
       .Paragraph {
-    
         width: 100%;
-  h1{
-    width: 100%;
-  }
+        h1 {
+          width: 100%;
+        }
       }
       .ServicesEmp__width {
         width: 100%;
-        p{
+        p {
           font-size: 14px !important;
         }
       }
@@ -102,7 +94,7 @@ h1{
         align-items: center;
         flex-direction: column;
         width: 100%;
-        gap: 80px
+        gap: 80px;
       }
     }
   }

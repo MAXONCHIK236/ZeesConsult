@@ -4,11 +4,12 @@ import Devider from "../../devider/Devider";
 import Team from "../TeamCard/Team";
 import { CardInfoArr } from "../../constants/PeapleInfo";
 import Ram from "../../blue__Ram/Ram";
-import { RamText, RamText2 } from "./../../constants/ram";
+import { RamText, RamText2, RamText9 } from "./../../constants/ram";
 import CursorLeft from "../../assents/cursor_decoration/LeftCursor.svg";
 import Button from "../button/button";
 import cursortop from "../../assents/cursor_decoration/TopCursor.svg";
 import { useTranslation } from "react-i18next";
+import Ram3 from "../../blue__Ram3/Ram3";
 const About = () => {
   const { t } = useTranslation();
   const renderCard = useMemo(
@@ -16,11 +17,11 @@ const About = () => {
     []
   );
   const renderText = useMemo(
-    () => RamText.map((article) => <Ram {...article} />),
+    () => RamText.map((article) => <Ram3 {...article} />),
     []
   );
   const renderText2 = useMemo(
-    () => RamText2.map((article) => <Ram {...article} />),
+    () => RamText9.map((article) => <Ram3 {...article} />),
     []
   );
   return (

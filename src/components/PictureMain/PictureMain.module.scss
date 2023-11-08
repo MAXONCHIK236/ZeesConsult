@@ -1,0 +1,62 @@
+.PictureMain {
+  width: 100%;
+  height: auto;
+  padding-top: 200px;
+  .Picture__img {
+    background-image: url(../../assents/personal/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 735px;
+    width: auto;
+    padding-top: 30px;
+    padding-left: 15px;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    h1 {
+      font-family: "Poppins",sans-serif;
+      font-size: 74px;
+      font-weight: 500;
+      text-align: left;
+      b{
+        color: rgba(0, 49, 115, 1);
+      }
+    }
+    p {
+      font-family: "Ropa Sans", sans-serif;
+      font-size: 64px;
+      font-weight: 400;
+      text-align: left;
+     color:rgba(0, 49, 115, 1) ; 
+    }
+  }
+  @media (max-width: 925px) {
+  }
+  @media (max-width: 425px) {
+    p {
+      font-size: 25px !important;
+    }
+    h1{
+        font-size: 30px !important
+    }
+  }
+  @media (max-width: 555px) {
+    p {
+        font-size: 25px !important;
+      }
+      h1{
+          font-size: 30px !important
+      }
+  }
+  @media (max-width: 768px) {
+    p {
+        font-size: 48px !important;
+      }
+      h1{
+        font-size: 48px !important;
+      }
+  }
+}

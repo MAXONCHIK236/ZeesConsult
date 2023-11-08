@@ -26,14 +26,27 @@
       justify-content: flex-end;
       padding-top: 30px;
       text-align: start;
-
+      gap: 40px;
+      button {
+        padding: 15px;
+        background-color: rgba(0, 74, 173, 1);
+        color: white;
+        a{
+          font-family: "Poppins",sans-serif;
+          font-weight: 500;
+          font-size: 24px;
+          color: white;
+        }
+      }
      }
+  
   }
   @media  (max-width: 768px) {
     .button{
       width: 98% !important;
     }
     }
+
     @media  (max-width: 425px) {
       .flex__content{
         align-items: center;
@@ -46,9 +59,26 @@
         width: 100%;
         text-align: center;
         p{
-          font-size: 14px;
+          font-size: 12px !important;
         }
       }
       }
+      @media  (max-width: 555px) {
+        .flex__content{
+          align-items: center;
+        }
+        .button{
+       
+          justify-content: center !important;
+        }
+        .under__text {
+          width: 100%;
+          text-align: center;
+          p{
+            font-size: 12px !important;
+          }
+        }
+        }
+     
 }
 

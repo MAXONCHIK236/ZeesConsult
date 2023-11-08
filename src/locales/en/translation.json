@@ -4,12 +4,16 @@
     "services": "Services",
     "about": "About Us",
     "contact": "Contacts",
-    "forpersonal": "For personal",
+    "forpersonal": "For applicants",
     "foremployer": "For employer",
     "next": "more",
     "rules":"ZESS Consulting. All rights reserved 2023",
     "rules2":"Privacy Policy",
-    "send":"Submit Form"
+    "send":"Submit Form",
+    "best":"Best partner",
+    "search":"in search",
+    "employer":"emloyer",
+    "europe":" For employers from Europe"
   },
   "main": {
     "partner": "– Your reliable partner in job search",
@@ -20,17 +24,18 @@
   },
   "ram": {
     "text1": "We are a young team. We have been based in Germany and the EU since 1999. We have accumulated rich experience in the fields of education, project management, and EU legislation related to service provision and communication with job seekers from the CIS and employers in the EU.",
-    "text2": "We have a strong network of contacts with employers, and we have long-term agreements to provide employment opportunities at various skill levels – from students during vacations to short-term employment as specialists.",
+    "text2": "We offer a unique opportunity for students from Central Asia to go to Germany for work.",
     "text3": "We make your team stronger.",
     "text4": "ZESS Consulting - your competent partner in personnel selection from Kyrgyzstan and Central Asian countries (e.g., Kazakhstan and Uzbekistan). By offering individual personnel selection services, we support your company when needed. We offer you a complete range of services, from short-term employment during vacations and peak demand periods to personnel selection that precisely matches your requirements. Qualified and reliable.",
     "text5": "Do you need to strengthen your team, but you don't have time for an intensive search? Then take advantage of our direct personnel selection service: our experienced specialists will take care of the entire personnel selection process. Quickly and systematically.",
-    "text6": "- Broad access to relevant target groups",
-    "text7": "- Short processing time for your request",
-    "text8": "- Experience in the European market and an understanding of the specifics of the CIS market",
-    "text9": "- Development of a qualification improvement plan",
-    "text10": "- Specialized language training",
+    "text6": "1) Broad access to relevant target groups",
+    "text7": "2) Short processing time for your request",
+    "text8": "3) Experience in the European market and an understanding of the specifics of the CIS market",
+    "text9": "4)  Development of a qualification improvement plan",
+    "text10": "5) Specialized language training",
     "text11": "As a student of an educational institution, you have the opportunity to gain work experience in Germany during the summer vacation (60 or 90 days). During work, you follow a clear work schedule in accordance with current legislation, with days off. Free time can be used to get to know the country and travel around Europe. Students of daytime education with basic knowledge of a foreign language (German or English) are invited to participate in the program. The level of foreign language knowledge should be sufficient for communication with colleagues and for everyday communication. Language courses are provided if necessary.",
-    "text12": "All job applicants have a dedicated contact person who can be approached for advice and support."
+    "text12": "All job applicants have a dedicated contact person who can be approached for advice and support.",
+    "text13":"We have a rich network of contacts with employers, and we have long-term agreements to provide employment opportunities at various skill levels - from part-time work for students during their holidays to short-term employment as a specialist."
   },
   "sheme": {
     "title1": "Initial Meeting:",
@@ -76,7 +81,8 @@
   "Paragraph": {
     "garantee": "Guarantee",
     "HowitIs": "How Does It Work?",
-    "Consulting":"Consulting"
+    "Consulting":"Consulting",
+    "question":"Frequently Asked Questions"
   },
   "Form": {
     "text": "Are you looking for a job abroad?",

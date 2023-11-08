@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Form.module.scss"
-import imgForm from "../../assents/form/img.svg"
+import imgForm from "../../assents/form/img.jpg"
 import { useTranslation } from 'react-i18next'
 const Form = () => {
   const {t} = useTranslation();

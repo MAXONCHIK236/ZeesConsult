@@ -32,12 +32,17 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
     border-radius: 6px;
     padding: 27px;
     width: 30%;
     height: 100px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    border: none;
+    color: white;
+    box-shadow: none;
+    h1{
+      font-weight: 200;
+    }
   }
   form {
     display: flex;

@@ -1,8 +1,8 @@
 import React, { useMemo } from "react";
 import styles from "./Consulting.module.scss";
 import Devider from "../../devider/Devider";
-import bg1 from "../../assents/personal/bg1.svg";
-import bg2 from "../../assents/personal/bg2.svg";
+import bg1 from "../../assents/employer/bg1.jpg";
+import bg2 from "../../assents/employer/bg2.jpg";
 import { PicturesArr, RamText8 } from "../../constants/ram";
 import BlueRam from "../../Blue__Ram2/BlueRam";
 import ArrowDown from "../../assents/team_img/arrow.svg";

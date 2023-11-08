@@ -12,7 +12,7 @@ const TranslationDropdown = () => {
   const languageOptions = [
     { value: "en", label: "English", icon: RussiaFlag },
     { value: "ru", label: "Русский", icon: RussiaFlag },
-    { value: "ger", label: "Germany", icon: RussiaFlag },
+    { value: "ger", label: "DE", icon: RussiaFlag },
   ];
 
   return (

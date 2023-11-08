@@ -14,7 +14,7 @@ const Questions = () => {
   return (
     <div className={styles.Questions}>
          <div className={styles.Paragraph}>
-        <Devider text={t("About.OurTeam")} />
+        <Devider text={t("Paragraph.question")} />
         <img src={ArrowDown} alt="Arrow" />
       </div>
       <div  className="container2">

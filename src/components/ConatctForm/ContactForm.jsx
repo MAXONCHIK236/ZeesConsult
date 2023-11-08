@@ -79,7 +79,7 @@ const ContactForm = () => {
 
       let selectedText = "";
       if (subject === "option1") {
-        selectedText = "Студент";
+        selectedText = "Соискатель";
       } else if (subject === "option2") {
         selectedText = "Работодатель";
       } else {

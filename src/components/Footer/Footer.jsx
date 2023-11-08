@@ -30,11 +30,6 @@ const Footer = () => {
             <a>Datenschutz</a>
           </div>
         </div>
-        <div className={styles.Footer__rules}>
-          <p>{t("header.rules")}</p>
-          <p>{t("header.rules2")}</p>
-          <a href="/Contact">{t("header.send")}</a>
-        </div>
         </div>
       </div>
     </div>
