@@ -169,9 +169,16 @@ const ContactForm = () => {
               type="text"
               value={password}
               onChange={(e) => {
+                const inputValue = e.target.value;
+                setPassword(inputValue);
                 setPassword(e.target.value);
                 if (e.target.value.trim() === "") {
                   setPasswordError("Number is required");
+                } else {
+                  setPasswordError("");
+                }
+                if (!/^\d+$/.test(inputValue)) {
+                  setPasswordError("Phone number should contain only numbers.");
                 } else {
                   setPasswordError("");
                 }
@@ -191,7 +198,13 @@ const ContactForm = () => {
                 } else {
                   setEmailError("");
                 }
-              }}
+                if (e.target.value.trim() === "" || !e.target.value.includes("@")) {
+                  setEmailError("Please enter a valid email address.");
+                } else {
+                  setEmailError("");
+                }
+              }
+             }
             />
             {EmailError && <span className={styles.error}>{EmailError}</span>}
             <div className={styles.dropdown}>
@@ -207,14 +220,14 @@ const ContactForm = () => {
                 }}
               >
                 <option value="">
-                  <p> ={t("Contact.choise")} </p>
+                  <p> {t("Contact.choise")} </p>
                   <img src={ArrowDown} alt="ArrowDown" />
                 </option>
                 <option
                   onChange={(e) => {
                     setSubject(e.target.value);
                     if (e.target.value.trim() === "") {
-                      setSublectError("Student is required");
+                      setSublectError("Searcher is required");
                     } else {
                       setSublectError("");
                     }
@@ -253,7 +266,7 @@ const ContactForm = () => {
                 onChange={(e) => {
                   setMessage(e.target.value);
                   if (e.target.value.trim() === "") {
-                    setMessageError("Name is required");
+                    setMessageError("Message is required");
                   } else {
                     setMessageError("");
                   }
