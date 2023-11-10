@@ -6,9 +6,6 @@ const ChemeEmployer = ({ title }) => {
   const {t} = useTranslation();
   return (
     <div className={styles.ChemeEmployer}>
-      <div className={styles.cheme__img}>
-        <img src={img} alt="img" />
-      </div>
       <div className={styles.block}>
         <p>{t(title)}</p>
       </div>

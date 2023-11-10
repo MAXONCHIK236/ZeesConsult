@@ -70,7 +70,7 @@ const ContactForm = () => {
     }
     setTimeout(() => {
       setButtonDisabled(false);
-    }, 60000);
+    }, 10000);
 
     if (isValid) {
       const serviceId = "service_ec0nuv9";

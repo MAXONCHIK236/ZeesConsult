@@ -31,7 +31,6 @@ function Header() {
             </div>
             <a href="/Contact">{t("header.contact")}</a>
           </div>
-
           <div className={styles.menu}>
             <BurgerMenu />
           </div>

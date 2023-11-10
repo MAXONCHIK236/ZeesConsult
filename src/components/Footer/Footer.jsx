@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useMemo } from "react";
 import styles from "./Footer.module.scss";
 import logo from "../../assents/header_img/logo.svg";
 import headerArrow from "../../assents/header_img/headerArrow.svg";
 import { useTranslation } from "react-i18next";
+import impersssum from "../../politics/Impressum.pdf"
+import Datenschuts from "../../politics/Datenschutz.pdf"
+import { Socials } from "../../constants/Team";
 const Footer = () => {
   const {t} = useTranslation()
+  const renderSoc = useMemo(
+    () => Socials.map((item) => <div className={styles.socials}><a href={item.link} ><img src={item.img} alt="icon" /></a></div>),
+    []
+  );
   return (
     <div className={styles.Footer}>
       <div className={styles.Footer__column}>
@@ -25,9 +32,10 @@ const Footer = () => {
               </div>
             <a href="/Contact">{t("header.contact")}</a>
           </div>
+          <div className={styles.social}>{renderSoc}</div>
           <div className={styles.impersssum}>
-            <a>Impressum</a>
-            <a>Datenschutz</a>
+            <a href={impersssum}>Impressum</a>
+            <a href={Datenschuts}>Datenschutz</a>
           </div>
         </div>
         </div>

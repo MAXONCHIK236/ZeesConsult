@@ -74,6 +74,15 @@
       }
     }
   }
+  .social{
+    display: flex;
+    gap: 32px;
+  }
+  .text__link{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
   @media  (max-width: 425px) {
     .Footer__rules{
         display: none !important;

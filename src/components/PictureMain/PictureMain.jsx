@@ -8,7 +8,7 @@ const PictureMain = () => {
       <div className="container2">
         <div className={styles.Picture__img}>
           <h1>
-           <b>ZEES</b> CONSULTING
+           <b>ZESS</b> CONSULTING
           </h1>
           <p>{t("header.best")}<br/>
           {t("header.search")}<br/>
