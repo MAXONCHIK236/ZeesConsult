@@ -1,6 +1,9 @@
 .AboutUs {
   height: auto;
   width: 100%;
+  .Form{
+    width: 36%;
+  }
   @media (max-width: 425px) {
     .AboutUs {
       p {

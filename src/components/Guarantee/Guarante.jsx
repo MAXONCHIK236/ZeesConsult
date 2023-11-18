@@ -6,6 +6,8 @@ import { RamText3 } from "../../constants/ram";
 import Devider from "../../devider/Devider";
 import { useTranslation } from "react-i18next";
 import Ram3 from "../../blue__Ram3/Ram3";
+import Form from "../Form/Form";
+
 const Guarante = () => {
   const {t} = useTranslation();
   const renderText = useMemo(
@@ -20,7 +22,7 @@ const Guarante = () => {
       <div className="container">
         <div className={styles.guarantee__flex}>
           <div className={styles.guarantee__left}>
-            <img src={guarantee} alt="icon" />
+          <Form/>
           </div>
           <div className={styles.guarantee__right}>
             {renderText}

@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./main.module.scss";
-import image from "../../assents/main_img/main2.jpg";
+import image from "../../assents/main_img/main2.svg";
 import { useTranslation } from "react-i18next";
-import rightArrow from "../../assents/cursor_decoration/right.svg"
+import rightArrow from "../../assents/cursor_decoration/right.svg";
 import "../../i18n.js";
 const Main = () => {
   const { t } = useTranslation();
@@ -14,18 +14,14 @@ const Main = () => {
             <img src={image} alt="img__main" />
           </div>
           <div className={styles.under__text}>
-            <p>
-              <b>ZESS Consulting</b> {t("main.partner")} <br />
-              {t("main.partner2")} <br /> {t("main.partner3")}
-              <br /> {t("main.partner4")}
-              <br /> {t("main.partner5")}
-            </p>
-            <div className={styles.button}>
-              <img src={rightArrow} alt="right" />
-              <button>
-                 <a href="AboutUs">Подробнее</a> 
-              </button>
-            </div>
+            <p>{t("main.partner")}</p>
+            <p> {t("main.partner2")} </p>
+          </div>
+          <div className={styles.button}>
+            <img src={rightArrow} alt="right" />
+            <button>
+              <a href="AboutUs">Подробнее</a>
+            </button>
           </div>
         </div>
       </div>

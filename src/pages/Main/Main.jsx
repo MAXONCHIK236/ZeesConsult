@@ -13,10 +13,7 @@ const MainPage = () => {
     <div className={styles.Main}>
       <Header />
       <Main />
-      <About />
       <Guarante />
-      <Sheme />
-      <Form/>
       <Footer />
     </div>
   );

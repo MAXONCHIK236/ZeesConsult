@@ -1,9 +1,31 @@
 .main {
   width: 100%;
-   padding-top: 230px;
+   padding-top: 200px;
+   padding-bottom: 50px;
+   .button{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+    text-align: start;
+    gap: 40px;
+    button {
+      padding: 15px;
+      background-color: rgba(0, 74, 173, 1);
+      color: white;
+      a{
+        font-family: "Poppins",sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        color: white;
+      }
+    }
+   }
   .flex__content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
   }
   .main__img {
@@ -12,33 +34,20 @@
     }
   }
   .under__text {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
+    width: 70%;
     p{
       font-family: "Poppins",sans-serif;
       font-weight: 500;
       font-size: 24px;
       color: rgb(0, 0, 1);
+     
     }
-    .button{
-      width: 73%;
-      display: flex;
-      justify-content: flex-end;
-      padding-top: 30px;
-      text-align: start;
-      gap: 40px;
-      button {
-        padding: 15px;
-        background-color: rgba(0, 74, 173, 1);
-        color: white;
-        a{
-          font-family: "Poppins",sans-serif;
-          font-weight: 500;
-          font-size: 24px;
-          color: white;
-        }
-      }
-     }
+  
   
   }
   @media  (max-width: 768px) {
