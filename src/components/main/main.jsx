@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./main.module.scss";
-import image from "../../assents/main_img/main2.svg";
+import image from "../../assents/main_img/main.jpg";
 import { useTranslation } from "react-i18next";
 import rightArrow from "../../assents/cursor_decoration/right.svg";
 import "../../i18n.js";
