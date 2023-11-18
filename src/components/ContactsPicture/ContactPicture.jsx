@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Contact.module.scss'
 import logo from "../../assents/header_img/logo2.svg"
-import bg from "../../assents/contacts__img/bg.svg"
+import bg from "../../assents/contacts__img/bg.jpg"
 const ContactPicture = () => {
   return (
     <div className={styles.Contact}>
