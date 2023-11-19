@@ -31,7 +31,8 @@ export const Socials = [
   },
 
   {
-    img:img2
+    img:img2,
+    link:"https://t.me/Zess_consulting"
   },
   {
     img:img3,

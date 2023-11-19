@@ -11,7 +11,12 @@ const OurTeam = () => {
     () => TeamArr.map((article) => <OurTeamCard {...article} />),
     []
   );
-  const renderText = useMemo(() => TextArr.map((article) => <div className={styles.render__text}><p>{t(article.text)}</p></div>), [t]);
+  const renderText = useMemo(() => TextArr.map((article) => 
+  <div className={styles.render__text}>
+    <h1>{}</h1>
+    <p>{t(article.text)}</p>
+
+  </div>), [t]);
 
   return (
     <div className={styles.OurTeam}>

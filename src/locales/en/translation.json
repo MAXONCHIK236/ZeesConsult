@@ -3,122 +3,118 @@
     "home": "Home",
     "services": "Services",
     "about": "About Us",
-    "contact": "Contacts",
-    "forpersonal": "For applicants",
-    "foremployer": "For employer",
-    "next": "more",
-    "rules":"ZESS Consulting. All rights reserved 2023",
-    "rules2":"Privacy Policy",
-    "send":"Submit Form",
-    "best":"Best partner",
-    "search":"in search",
-    "employer":"emloyer",
+    "contact": "Contact",
+    "forpersonal": "For Applicants",
+    "foremployer": "For Employers",
+    "next": "read more",
+    "rules": "ZESS Consulring. All rights reserved 2023",
+    "rules2": "Privacy Policy",
+    "send": "Submit Form",
+    "best":"Your competent ",
+    "search":"and reliable partner ",
+    "employer":" in employer search",
     "europe":" For employers from Europe"
   },
   "main": {
-    "partner": "– Your reliable partner in job search",
-    "partner2": " in Germany and the EU, as well as in staff recruitment.",
-    "partner3": "Professional approach and a wide",
-    "partner4": "selection of vacancies with various employers",
-    "partner5": "in the EU, qualified and reliable."
+    "partner": "Our mission is as follows: professionalism is a requirement of our daily work and the goal of our existence in a changing world.",
+    "partner2": " We live in uneasy and turbulent times. Don't worry, ZESS Consulting will show you where to go. We actively help you, support you, and share our knowledge with you. Quality is our benchmark. Where there is quality, there is success. So - we're together!"
   },
   "ram": {
-    "text1": "We are a young team. We have been based in Germany and the EU since 1999. We have accumulated rich experience in the fields of education, project management, and EU legislation related to service provision and communication with job seekers from the CIS and employers in the EU.",
-    "text2": "We offer a unique opportunity for students from Central Asia to go to Germany for work.",
-    "text3": "We make your team stronger.",
-    "text4": "ZESS Consulting - your competent partner in personnel selection from Kyrgyzstan and Central Asian countries (e.g., Kazakhstan and Uzbekistan). By offering individual personnel selection services, we support your company when needed. We offer you a complete range of services, from short-term employment during vacations and peak demand periods to personnel selection that precisely matches your requirements. Qualified and reliable.",
-    "text5": "Do you need to strengthen your team, but you don't have time for an intensive search? Then take advantage of our direct personnel selection service: our experienced specialists will take care of the entire personnel selection process. Quickly and systematically.",
-    "text6": "* Broad access to relevant target groups",
-    "text7": "* Short processing time for your request",
-    "text8": "* Experience in the European market and an understanding of the specifics of the CIS market",
-    "text9": "*  Development of a qualification improvement plan",
-    "text10": "* Specialized language training",
-    "text11": "As a student of an educational institution, you have the opportunity to gain work experience in Germany during the summer vacation (60 or 90 days). During work, you follow a clear work schedule in accordance with current legislation, with days off. Free time can be used to get to know the country and travel around Europe. Students of daytime education with basic knowledge of a foreign language (German or English) are invited to participate in the program. The level of foreign language knowledge should be sufficient for communication with colleagues and for everyday communication. Language courses are provided if necessary.",
-    "text12": "All job applicants have a dedicated contact person who can be approached for advice and support.",
-    "text13":"We have a rich network of contacts with employers, and we have long-term agreements to provide employment opportunities at various skill levels - from part-time work for students during their holidays to short-term employment as a specialist."
+    "text1": "“We are a young team. Since 1999, we have been located in Germany and the EU. We have accumulated rich experience in the field of education, project management, and EU legislation for providing services and communication with applicants from the CIS and employers in the EU.”",
+    "text2": "We provide a unique opportunity for students from Central Asia to work in Germany during vacation time ",
+    "text3": "We make your team stronger",
+    "text4": " ZESS Consulting - your competent partner for personnel recruitment from Kyrgyzstan and Central Asia (e.g., Kazakhstan and Uzbekistan). By providing individual personnel services, we support your company precisely when it is necessary. We offer you a complete package of services: from short-term employment during vacations and peak orders to the recruitment of personnel that exactly meets your requirements. Qualified and reliable",
+    "text5": "Do you need reinforcements for your team but don't have time for intensive searching? Then use our direct personnel recruitment service: our experienced specialists take over the entire personnel selection process for you. Quickly and systematically.",
+    "text6": "➔ Broad access to relevant target groups",
+    "text7": "➔ Short processing time for your request",
+    "text8": "➔ Experience in the European market and consideration of the peculiarities of working in the CIS market",
+    "text9": "➔ Development of a qualification enhancement plan",
+    "text10": "➔ Specialized language training",
+    "text11": "As a student of an educational institution, you have the opportunity to gain work experience in Germany during summer holidays (60 or 90 days). During work, you follow a clear working schedule in accordance with current laws, with days off. Free time can be used to get to know the country and travel through Europe. To participate in the program, students in day study with basic knowledge of a foreign language (German or English) are invited. The level of foreign language knowledge should be sufficient for communication with colleagues and for everyday communication. If necessary, language courses are provided.",
+    "text12": "All applicants have a permanent contact person to turn to for advice and support.",
+    "text13":"We have a rich network of contacts to employers, and we have long-term agreements for employment at different levels of qualification - from employment as a student during holidays to short-term employment as a specialist."
   },
+
   "sheme": {
     "title1": "Initial Meeting:",
-    "text1": "Come to meet with us to discuss all the details and answer your questions.",
+    "text1": "Fill out the contact form on our website and let us know a convenient time for a callback.",
     "title2": "Program Selection:",
-    "text2": "We offer various options for working or studying in Germany. Just bring your passport, and we will assist you with registration.",
+    "text2": "During our conversation, we will listen to you and offer optimal employment opportunities for work or study in Germany / the EU. We will also prepare an individual development plan for your target position.",
     "title3": "Document Preparation:",
-    "text3": "We will help you prepare all the necessary documents for your application.",
+    "text3": "We will help you gather all the necessary documents for your application and start processing it.",
     "title4": "Online Interview:",
-    "text4": "We will arrange an online interview with a potential employer or educational institution.",
+    "text4": "We will organize an online interview with potential employers or educational institutions.",
     "title5": "Embassy Visit:",
-    "text5": "We will prepare you for the embassy interview and provide all the necessary information for obtaining a visa.",
-    "title6": "Pre-Departure Preparation:",
-    "text6": "We will assist you in planning your journey and getting ready for departure.",
-    "title7": "On-Site Support:",
-    "text7": "We will stay in touch with you throughout your stay in Germany to help you with any questions that may arise.",
-    "title8": "We search for suitable candidates according to your requirements and conduct preliminary screening. Based on our recommendations, you decide who to invite for an online interview.",
-    "title9": "If necessary, we will prepare a plan for additional specialization or language training (preparation for certification exams and language for your field).",
-    "title10": "Accompanying the candidate during their studies, document preparation, and coordination of organizational matters upon arrival in Germany."
+    "text5": "We will prepare you for the embassy visit and assist you with an interview for a work visa.",
+    "title6": "Departure Preparation:",
+    "text6": "We will help you plan your overseas trip and get ready for your first day of work.",
+    "title7": "On-site Support:",
+    "text7": "We will stay in touch with you throughout your stay in Germany to assist you with any emerging questions.",
+    "title8": "We search for suitable candidates according to your requirements and conduct a preliminary selection. Based on our recommendations, you decide whom to invite for an online interview.",
+    "title9": "If necessary, we will create a plan for additional qualifications or language preparation (preparation for the exam at a certified center and language courses for your specific field).",
+    "title10": "Accompanying the candidate during studies, preparing documents, and coordinating organizational issues upon arrival in Germany"
   },
   "questions": {
     "text": "What unique advantages will I gain by choosing your employment services in Germany?",
-    "answer": "You are working with a competent partner with extensive experience in Germany and Austria. Additionally, we offer consultations that take into account the requirements of German and EU legislation. Our knowledge and experience allow us to find solutions even in the most complex situations. We can discuss the pros and cons of each option with you. We will not leave you alone with your questions. Language is not a barrier for us; we speak your language. We speak Russian, Kyrgyz, German, and English. Feel free to reach out to us!",
+    "answer": "You are working with a competent partner with rich experience in Germany and Austria. Additionally, we offer consultation considering the legislation in Germany and the EU. Our experience allows us to find solutions even in the most challenging situations, discuss the pros and cons of each option with you. We won't leave you alone with your questions. Language barrier is not an issue for us; we speak your language. We speak Russian, Kyrgyz, German, and English. Feel free to reach out to us!",
     "text2": "What additional services do you offer to facilitate the employment process in Germany?",
-    "answer2": "We provide general consultations on employment issues, specialized German language courses tailored to your profile and chosen vacancy, online training, support during your job preparation and while working in Germany, and individual online consultations for your specific questions.",
-    "text3": "How does your company support clients during and after the employment process?",
-    "answer3": "We offer various consultations on different collaboration matters, including employment-related consultation, document preparation, training in various specialized areas, support during your stay in Germany and within the EU, emergency assistance in critical situations, and support for your various questions.",
-    "text4": "How can I contact your company to inquire about your services?",
-    "answer4": "Fill out the contact form, select the topic of your inquiry, and provide a convenient time for contact (contact phone or email, time of contact, and the day of contact). Our specialist will get in touch with you as soon as possible."
+    "answer2": "General consultation on employment issues, specialized German courses for your profile and selected position, online training, support in preparing for work and during your stay in Germany, and individual online consultation for your questions.",
+    "text3": "How does your company support clients during the employment process and after its completion?",
+    "answer3": "We offer various consultations on different cooperation issues, from employment consultations to document preparation, training in various specialized training, accompanying your stay in Germany and the EU, emergency assistance in critical situations, and support for your various concerns.",
+    "text4": "How does your company support clients during the employment process and after its completion?",
+    "answer4": "Fill out the contact form, choose the subject of the inquiry, and let us know the best time for feedback (contact phone or email, contact time, and day of contact). Our specialist will contact you as soon as possible."
   },
   "team": {
-    "text": "We are a young but experienced team, operating in Germany and the EU since 1999. Over this time, we have accumulated rich experience in the field of education, project management, and EU legislation.",
-    "text2": "We specialize in providing services and communication with candidates from the CIS countries and employers in the EU.",
-    "text3": "Our network of contacts with employers is extensive, and we have long-term agreements for providing employment at various qualification levels. Whether you are looking for temporary work during your studies or short-term employment as a specialist, we are ready to help you find a suitable position.",
-    "text4": "We take pride in our work and aim to provide the best opportunities for those seeking employment in Germany. Our team is always ready to assist you in this important process."
+    "text": "We are a young but experienced team operating in Germany and the EU since 1999. During this time, we have accumulated rich experience in education, project management, and EU legislation.",
+    "text2": "We specialize in providing services and communication with applicants from the CIS countries and employers in the EU.",
+    "text3": "Our network of contacts with employers is extensive, and we have long-term agreements for employment at different qualification levels. Whether you are looking for temporary work during study holidays or short-term employment as a specialist, we are ready to help you find a suitable position.",
+    "text4": "We take pride in our work and strive to provide the best opportunities for those seeking employment in Germany. Our team is always ready to assist you in this important process."
   },
   "TeamArr": {
     "Name": "Stepan Zenin",
-    "WhoIsIt": "Head of ZESS CONSULTING",
-    "Name2": "Baktygul Zenin",
-    "WhoIsIt2": "Deputy Head of ZESS CONSULTING"
+    "WhoIsIt": "Head of ZESS CONSULTING"
   },
   "Paragraph": {
     "garantee": "Guarantee",
-    "HowitIs": "How Does It Work?",
-    "Consulting":"Consulting",
-    "question":"Frequently Asked Questions"
+    "HowitIs": "How it Works",
+    "Consulting": "Consultation",
+    "question": "Frequently Asked Questions"
   },
   "Form": {
     "text": "➔Are you looking for a job abroad?",
     "text2": "➔Are you interested in our services?",
     "text3": "➔Are you an employer?",
     "text4": "➔Are you a student?",
-    "text5": "➔Fill out the form"
+    "text5": "Fill out the form"
   },
   "About": {
     "text": "We offer a unique opportunity for students from Central Asia to work in Germany.",
     "OurTeam": "Our Team",
-    "Personal": "We offer job placement services in Germany",
+    "Personal": "We offer employment services in Germany and the EU",
     "Work": "Work as a student",
-    "interes":"If you have developed an interest in this program, please fill out the contact form.",
-    "if": "If you have a degree as a truck driver, cook, electrician, nurse, or doctor, and you have gained initial work experience in your profession, contact us! We will find you short-term (6 to 12 months) and long-term employment opportunities. We will guarantee you a suitable employer and provide the necessary preparation for obtaining a work visa. If needed, preparatory language courses are available."
+    "interes": "If you have interest in this program, please fill out the contact form.",
+    "if": "If you have a specialist diploma, for example, as a truck driver, cook, electrician, nurse, or doctor, and you have had initial work experience in your profession, contact us! We will find you short-term (3 to 12 months) and long-term employment. We will find an employer for you, prepare you for the interview, and support you with questions for obtaining the work visa. If necessary, preparatory courses in foreign languages and specialties are provided."
   },
   "Contact": {
-    "add": "Fill out the field",
+    "add": "This field must not be empty",
     "form": "Your form has been successfully submitted!",
-    "reload": "Reload the form",
-    "valueUser": "Fill in your details",
+    "reload": "Reload form",
+    "valueUser": "Enter your details",
     "name": "First Name",
     "lastname": "Last Name",
     "number": "Phone Number",
     "Email": "Email",
-    "choise": "Select the topic of your inquiry",
-    "Student": "applicants",
+    "choise": "Select the subject of inquiry",
+    "Student": "Applicant",
     "employer": "Employer",
-    "message": "Enter your message",
+    "message": "Enter message",
     "next": "By clicking the 'Continue' button, you consent to the processing of your personal data by ZESS Consulting.",
     "send": "Send"
   },
-  "employer":{
-    "security":"Security, Innovation",
-    "security2": ", Quality – your key to professional personnel.",
-    "personal": "Targeted Personnel Selection According to Your Requirements",
-    "ur":"your advantages"
+  "employer": {
+    "security": "Professionalism, competence ",
+    "security2": "your key to personnel in the CIS market.",
+    "personal": "Targeted personnel selection according to your requirements",
+    "ur": "Your benefits"
   }
 }

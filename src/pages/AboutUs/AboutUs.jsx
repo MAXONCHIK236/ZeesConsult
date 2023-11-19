@@ -5,7 +5,6 @@ import Footer from '../../components/Footer/Footer'
 import AboutMain from '../../components/AboutUsMain/AboutMain'
 import OurTeam from '../../components/OurTeam/OurTeam'
 import Questions from '../../components/Questions/Questions'
-import Form from '../../components/Form/Form'
 import Form2 from '../../components/Form2/Form'
 
 const AboutUs = () => {

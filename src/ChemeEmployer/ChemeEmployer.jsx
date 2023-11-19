@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./ChemeEmployer.module.scss";
-import img from "../assents/warning.svg";
 import { useTranslation } from "react-i18next";
 const ChemeEmployer = ({ title }) => {
   const {t} = useTranslation();

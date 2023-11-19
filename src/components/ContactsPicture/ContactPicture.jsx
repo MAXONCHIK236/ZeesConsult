@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Contact.module.scss'
-import bg from "../../assents/contacts__img/bg.jpg"
+import bg from "../../assents/main_img/main.jpg"
 const ContactPicture = () => {
   return (
     <div className={styles.Contact}>
