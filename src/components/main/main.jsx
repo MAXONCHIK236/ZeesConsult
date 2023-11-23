@@ -20,7 +20,7 @@ const Main = () => {
           <div className={styles.button}>
             <img src={rightArrow} alt="right" />
             <button>
-              <a href="AboutUs">Подробнее</a>
+              <a href="AboutUs">{t("header.next")}</a>
             </button>
           </div>
         </div>
