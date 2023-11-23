@@ -4,7 +4,7 @@ import Devider from "../../devider/Devider";
 import ArrowDown from "../../assents/team_img/arrow.svg";
 import { RamText7 } from "../../constants/ram";
 import BlueRam from "../../Blue__Ram2/BlueRam";
-import bg from "../../assents/personal/bg.jpg"
+import bg from "../../assents/main_img/main2.jpg"
 import RamButton from "../../ram__button/RamButton";
 import { useTranslation } from "react-i18next";
 const PersonalMain = () => {
@@ -12,10 +12,10 @@ const PersonalMain = () => {
     const renderRam = useMemo(
         () => RamText7.map((article) => <BlueRam {...article} />),
         [t]
-      );
+    );
+
   return (
     <div className={styles.PersonalMain}>
-      
       <div className={styles.Paragraph}>
         <Devider text={t("About.Personal")}/>
         <button>{t("About.Work")}</button>

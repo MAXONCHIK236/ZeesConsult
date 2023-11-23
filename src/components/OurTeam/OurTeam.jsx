@@ -13,9 +13,15 @@ const OurTeam = () => {
   );
   const renderText = useMemo(() => TextArr.map((article) => 
   <div className={styles.render__text}>
-    <h1>{}</h1>
     <p>{t(article.text)}</p>
+<div>
+    <h1>{t(article.text2)}</h1>
+    <p>{t(article.text3)}</p>
+    <p>{t(article.text4)}</p>
+    <p>{t(article.text5)}</p>
+    </div>
 
+    
   </div>), [t]);
 
   return (
