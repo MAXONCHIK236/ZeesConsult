@@ -10,7 +10,7 @@ const MainEmployer = () => {
             <div className={styles.employer__img}>
       <img src={logo} alt="logo" />
       <h1>
-       {t("employer.security")} <b>-ZESS Consulting</b> {t("employer.security2")}
+       {t("employer.security")} <b>- ZESS Consulting</b> {t("employer.security2")}
       </h1>
       </div>
     </div>
