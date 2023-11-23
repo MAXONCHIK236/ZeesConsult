@@ -10,14 +10,14 @@
     "rules": "ZESS Consulring. Alle Rechte vorbehalten 2023",
     "rules2": "Datenschutzbestimmungen",
     "send": "Formular senden",
-    "best":"Ihr kompetenter ",
-    "search":"und zuverlässiger Partner ",
-    "employer":" bei der Suche nach Arbeitgebern",
-    "europe":" Für Arbeitgeber aus Europa"
+    "best": "Ihr kompetenter ",
+    "search": "und zuverlässiger Partner ",
+    "employer": " bei der Suche nach Arbeitgebern",
+    "europe": " Für Arbeitgeber aus Europa"
   },
   "main": {
-    "partner": "Unsere Mission besteht darin, Professionalität ist eine Anforderung unserer täglichen Arbeit und unser Ziel seit unserer Entstehung auf einem sich verändernden Markt.",
-    "partner2": " Wir leben in einer unruhigen und turbulenten Zeit. Machen Sie sich keine Sorgen, ZESS Consulting wird Ihnen zeigen, wohin Sie gehen müssen. Wir helfen Ihnen aktiv, unterstützen Sie und teilen unser Wissen mit Ihnen. Qualität ist unser Maßstab. Wo Qualität ist, ist auch Erfolg. Deshalb - wir zusammen!"
+    "partner": "Unsere Mission besteht darin: Professionalität ist eine Anforderung unserer täglichen Arbeit und das Ziel unserer Präsenz auf dem Markt in einer sich verändernden Welt.",
+    "partner2": "Wir leben in einer unruhigen und turbulenten Zeit. Machen Sie sich keine Sorgen, ZESS Consulting zeigt Ihnen, wohin Sie gehen müssen. Wir helfen aktiv, unterstützen Sie und teilen unser Wissen mit Ihnen. Qualität ist unser Leitfaden. Wo Qualität ist, ist auch Erfolg. Deshalb sind wir gemeinsam: STARK - ZIELSTREBIG - BESTÄNDIG. Sie können sich auf uns verlassen! Wir sind ehrlich, transparent und offen. Erzählen Sie uns von Ihrem Ziel, und wir werden gemeinsam die optimale Lösung für Sie finden. Wir legen großen Wert auf Kommunikation und nehmen uns Zeit, um unser gemeinsames Ziel zu erreichen."
   },
   "ram": {
     "text1": "“Wir sind ein junges Team. Seit 1999 sind wir in Deutschland und der EU tätig. Wir haben umfangreiche Erfahrung in den Bereichen Bildung, Projektmanagement und EU-Gesetzgebung für die Erbringung von Dienstleistungen und die Kommunikation mit Bewerbern aus den GUS-Staaten und Arbeitgebern in der EU gesammelt.”",
@@ -32,7 +32,7 @@
     "text10": "➔ Spezielle Sprachausbildung",
     "text11": "Als Student einer Bildungseinrichtung haben Sie die Möglichkeit, während der Sommerferien (60 oder 90 Tage) Arbeitserfahrung in Deutschland zu sammeln. Während der Arbeit folgen Sie einem festen Arbeitszeitplan gemäß den geltenden Gesetzen mit freien Tagen. Die freie Zeit können Sie nutzen, um das Land kennenzulernen und durch Europa zu reisen. Um an dem Programm teilzunehmen, werden Studenten im Tagesstudium mit Grundkenntnissen in einer Fremdsprache (Deutsch oder Englisch) eingeladen. Das Sprachniveau sollte ausreichend sein, um mit Kollegen zu kommunizieren und im Alltag zu interagieren. Bei Bedarf werden Sprachkurse angeboten.",
     "text12": "Alle Bewerber haben einen festen Ansprechpartner, an den sie sich für Beratung und Unterstützung wenden können.",
-    "text13":"Wir verfügen über ein umfangreiches Netzwerk von Kontakten zu Arbeitgebern, und wir haben langfristige Vereinbarungen für Beschäftigung auf unterschiedlichen Qualifikationsebenen - von Beschäftigung als Student während der Ferien bis zu kurzfristiger Beschäftigung als Fachkraft."
+    "text13": "Wir verfügen über ein umfangreiches Netzwerk von Kontakten zu Arbeitgebern, und wir haben langfristige Vereinbarungen für Beschäftigung auf unterschiedlichen Qualifikationsebenen - von Beschäftigung als Student während der Ferien bis zu kurzfristiger Beschäftigung als Fachkraft."
   },
 
   "sheme": {
@@ -78,13 +78,14 @@
     "garantee": "Garantie",
     "HowitIs": "Wie läuft das alles ab?",
     "Consulting": "Beratung",
-    "question":"Häufig gestellte Fragen"
+    "question": "Häufig gestellte Fragen"
   },
   "Form": {
     "text": "➔Suchen Sie Arbeit im Ausland?",
     "text2": "➔Interessieren Sie sich für unsere Dienstleistungen?",
     "text3": "➔Sind Sie Arbeitgeber?",
     "text4": "➔Sind Sie Student?",
+    "text6": "➔ Sind Sie ein Fachmann?",
     "text5": "Formular ausfüllen"
   },
   "About": {
@@ -93,7 +94,16 @@
     "Personal": "Wir bieten Dienstleistungen zur Anstellung in Deutschland und der EU an",
     "Work": "Arbeiten als Student",
     "interes": "Wenn Sie Interesse an diesem Programm haben, füllen Sie bitte das Kontaktformular aus.",
-    "if": "Wenn Sie einen Abschluss als Spezialist haben, z.B. als Lastwagenfahrer, Koch, Elektriker, Krankenschwester oder Arzt, und Sie erste Berufserfahrung in Ihrem Beruf gesammelt haben, kontaktieren Sie uns! Wir finden für Sie kurzfristige (3 bis 12 Monate) und langfristige Beschäftigung. Wir suchen für Sie einen Arbeitgeber, bereiten Sie auf das Vorstellungsgespräch vor und unterstützen Sie bei Fragen zur Beantragung des Arbeitsvisums. Bei Bedarf bieten wir Vorbereitungskurse in Fremdsprachen und Fachrichtungen an."
+    "if": "Wenn Sie einen Abschluss als Spezialist haben, z.B. als Lastwagenfahrer, Koch, Elektriker, Krankenschwester oder Arzt, und Sie erste Berufserfahrung in Ihrem Beruf gesammelt haben, kontaktieren Sie uns! Wir finden für Sie kurzfristige (3 bis 12 Monate) und langfristige Beschäftigung. Wir suchen für Sie einen Arbeitgeber, bereiten Sie auf das Vorstellungsgespräch vor und unterstützen Sie bei Fragen zur Beantragung des Arbeitsvisums. Bei Bedarf bieten wir Vorbereitungskurse in Fremdsprachen und Fachrichtungen an.",
+    "text2": "Unsere Hauptgeschäftsbereiche:",
+    "text3": "- Beratung und Erbringung verschiedener Dienstleistungen für Unternehmen und Unternehmer im Bereich Innovation",
+    "text4": "- Rekrutierung von Fachpersonal für Arbeit im Ausland",
+    "text5": "- Beratung und Erbringung verschiedener Dienstleistungen für Unternehmen und Unternehmer im Bereich Innovation",
+    "text6": "Unsere Dienstleistungen für Mitarbeiter:",
+    "text7": "- Arbeit während der Semesterferien für Studenten",
+    "text8": "- Arbeit als qualifizierter Spezialist / Profi mit Berufserfahrung",
+    "text9": "- Arbeit als hochqualifizierter Experte",
+    "text10": "ZESS-Consulting – Ihr verlässlicher Partner!"
   },
   "Contact": {
     "add": "Dieses Feld darf nicht leer sein",

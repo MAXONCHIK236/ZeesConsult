@@ -10,14 +10,14 @@
     "rules": "ZESS Consulring. All rights reserved 2023",
     "rules2": "Privacy Policy",
     "send": "Submit Form",
-    "best":"Your competent ",
-    "search":"and reliable partner ",
-    "employer":" in employer search",
-    "europe":" For employers from Europe"
+    "best": "Your competent ",
+    "search": "and reliable partner ",
+    "employer": " in employer search",
+    "europe": " For employers from Europe"
   },
   "main": {
-    "partner": "Our mission is as follows: professionalism is a requirement of our daily work and the goal of our existence in a changing world.",
-    "partner2": " We live in uneasy and turbulent times. Don't worry, ZESS Consulting will show you where to go. We actively help you, support you, and share our knowledge with you. Quality is our benchmark. Where there is quality, there is success. So - we're together!"
+    "partner": "Our mission is as follows: Professionalism is a requirement of our daily work and the purpose of our presence in the market in a changing world.",
+    "partner2": "We live in unsettled and turbulent times. Don't worry, ZESS Consulting will show you where to go. We actively help you, support you, and share our knowledge with you. Quality is our guide. Where there is quality, there is success. So - we are together: STRONG - AMBITIOUS - RESILIENT. You can rely on us! We are honest, transparent, and open. Tell us about your goal, and we will find the optimal solution for you together. We pay great attention to communication and take the time to achieve our common goal."
   },
   "ram": {
     "text1": "“We are a young team. Since 1999, we have been located in Germany and the EU. We have accumulated rich experience in the field of education, project management, and EU legislation for providing services and communication with applicants from the CIS and employers in the EU.”",
@@ -32,7 +32,7 @@
     "text10": "➔ Specialized language training",
     "text11": "As a student of an educational institution, you have the opportunity to gain work experience in Germany during summer holidays (60 or 90 days). During work, you follow a clear working schedule in accordance with current laws, with days off. Free time can be used to get to know the country and travel through Europe. To participate in the program, students in day study with basic knowledge of a foreign language (German or English) are invited. The level of foreign language knowledge should be sufficient for communication with colleagues and for everyday communication. If necessary, language courses are provided.",
     "text12": "All applicants have a permanent contact person to turn to for advice and support.",
-    "text13":"We have a rich network of contacts to employers, and we have long-term agreements for employment at different levels of qualification - from employment as a student during holidays to short-term employment as a specialist."
+    "text13": "We have a rich network of contacts to employers, and we have long-term agreements for employment at different levels of qualification - from employment as a student during holidays to short-term employment as a specialist."
   },
 
   "sheme": {
@@ -85,6 +85,7 @@
     "text2": "➔Are you interested in our services?",
     "text3": "➔Are you an employer?",
     "text4": "➔Are you a student?",
+    "text6": "➔ Are you a specialist?",
     "text5": "Fill out the form"
   },
   "About": {
@@ -93,7 +94,16 @@
     "Personal": "We offer employment services in Germany and the EU",
     "Work": "Work as a student",
     "interes": "If you have interest in this program, please fill out the contact form.",
-    "if": "If you have a specialist diploma, for example, as a truck driver, cook, electrician, nurse, or doctor, and you have had initial work experience in your profession, contact us! We will find you short-term (3 to 12 months) and long-term employment. We will find an employer for you, prepare you for the interview, and support you with questions for obtaining the work visa. If necessary, preparatory courses in foreign languages and specialties are provided."
+    "if": "If you have a specialist diploma, for example, as a truck driver, cook, electrician, nurse, or doctor, and you have had initial work experience in your profession, contact us! We will find you short-term (3 to 12 months) and long-term employment. We will find an employer for you, prepare you for the interview, and support you with questions for obtaining the work visa. If necessary, preparatory courses in foreign languages and specialties are provided.",
+    "text2": "Our main areas of activity:",
+    "text3": "- Consulting and providing various services for companies and entrepreneurs in the field of innovation",
+    "text4": "- Recruitment of specialized personnel for work abroad",
+    "text5": "- Consulting and providing various services for companies and entrepreneurs in the field of innovation",
+    "text6": "Our services for personnel:",
+    "text7": "- Work during vacation for students",
+    "text8": "- Work as a certified specialist/professional with work experience",
+    "text9": "- Work as a highly qualified specialist",
+    "text10": "ZESS-Consulting – Your reliable partner!"
   },
   "Contact": {
     "add": "This field must not be empty",
