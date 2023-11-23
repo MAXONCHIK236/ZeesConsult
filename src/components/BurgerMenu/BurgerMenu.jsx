@@ -5,7 +5,7 @@ import TranslationDropdown from "../TranslationDrop/TranslationDropdown";
 import { useTranslation } from "react-i18next";
 const BurgerMenu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-
+  const { t } = useTranslation();
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
