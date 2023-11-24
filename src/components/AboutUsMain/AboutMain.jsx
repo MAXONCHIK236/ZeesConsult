@@ -8,9 +8,6 @@ const AboutMain = () => {
     <div className={styles.About}>
         <div className="container2">
           <div className={styles.About__img}>
-        <p>
-         {t("About.text")}
-        </p>
         <img src={logo} alt="logo" />
  </div>
  </div>
