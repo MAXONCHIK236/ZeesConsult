@@ -7,10 +7,11 @@ const RamButton = () => {
   return (
     <div className={styles.RamButton}>
       <div className={styles.text}>
-       <a href='/Contact'>{t("About.interes")}</a>
+       <a >{t("About.interes")}</a>
       </div>
-    <div><img src={right} alt="right" /></div>  
-      <button>{t("Form.text5")}</button>
+    <div className={styles.ramtext}>
+      <img src={right} alt="right" /></div>  
+      <button><a href='/Contact'>{t("Form.text5")}</a></button>
     </div>
   )
 }

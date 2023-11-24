@@ -11,18 +11,21 @@
     border-radius: 5px;
     width: 50%;
   }
-  button {
-    padding: 20px;
-    background-color: rgba(0, 74, 173, 1);
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-  }
   a {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
     color: rgba(0, 74, 173, 1);
+  }
+  button {
+    padding: 20px;
+    background-color: rgba(0, 74, 173, 1);
+    color: white;
+    font-size: 20px;
+    font-weight: 400;  
+  a{
+    color: white;
+  }
   }
 }
 @media (max-width: 768px) {
