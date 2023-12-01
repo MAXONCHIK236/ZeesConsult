@@ -1,7 +1,7 @@
 {
   "header": {
     "home": "Startseite",
-    "services": "Dienstleistungen",
+    "services": "Leistungen ",
     "about": "Über uns",
     "contact": "Kontakt",
     "forpersonal": "Für Bewerber",
@@ -16,12 +16,12 @@
     "europe": " Für Arbeitgeber aus Europa"
   },
   "main": {
-    "partner": "Unsere Mission besteht darin: Professionalität ist eine Anforderung unserer täglichen Arbeit und das Ziel unserer Präsenz auf dem Markt in einer sich verändernden Welt.",
-    "partner2": "Wir leben in einer unruhigen und turbulenten Zeit. Machen Sie sich keine Sorgen, ZESS Consulting zeigt Ihnen, wohin Sie gehen müssen. Wir helfen aktiv, unterstützen Sie und teilen unser Wissen mit Ihnen. Qualität ist unser Leitfaden. Wo Qualität ist, ist auch Erfolg. Deshalb sind wir gemeinsam: STARK - ZIELSTREBIG - BESTÄNDIG. Sie können sich auf uns verlassen! Wir sind ehrlich, transparent und offen. Erzählen Sie uns von Ihrem Ziel, und wir werden gemeinsam die optimale Lösung für Sie finden. Wir legen großen Wert auf Kommunikation und nehmen uns Zeit, um unser gemeinsames Ziel zu erreichen."
+    "partner": "Unsere Mission ist: Professionalität ist der Anspruch unserer täglichen Arbeit und unseres Auftritts auf dem Markt „die Welt im Wandel“",
+    "partner2": "Wir leben in turbulenten Zeiten. Keine Sorge: ZESS Consulting zeigt Ihnen die Route wohin Sie müssen. Wir helfen Ihnen aktiv, unterstützen dabei und geben Ihnen unser Wissen weiter. Qualität ist unser Maßstab und Versprechen. Wo der Qualität herrscht ist dort Zufriedenheit. Somit sind wir zusammen STARK - ZIELSTRÄBIG - NACHHALTIG Auf uns können Sie sich verlassen! Wir sind ehrlich, transparent und offen. Nennen Sie uns Ihr Ziel und wir finden eine Lösung gemeinsam den richtigen Weg. Selbstverständlich führen wir eine klare Kommunikation und legen großen Wert an gemeinsamen unserem Ziel."
   },
   "ram": {
     "text1": "“Wir sind ein junges Team. Seit 1999 sind wir in Deutschland und der EU tätig. Wir haben umfangreiche Erfahrung in den Bereichen Bildung, Projektmanagement und EU-Gesetzgebung für die Erbringung von Dienstleistungen und die Kommunikation mit Bewerbern aus den GUS-Staaten und Arbeitgebern in der EU gesammelt.”",
-    "text2": "Wir bieten Studenten aus Zentralasien eine einzigartige Möglichkeit, während der Ferienzeit nach Deutschland zu reisen ",
+    "text2": "Wir bieten Studenten aus Zentralasien die einzigartige Möglichkeit, zum Ferienjob nach  Deutschland zu kommen.",
     "text3": "Wir machen Ihr Team stärker",
     "text4": " ZESS Consulting - Ihr kompetenter Partner für die Rekrutierung von Personal aus Kirgisistan und Zentralasien (z. B. Kasachstan und Usbekistan). Indem wir individuelle Personaldienstleistungen anbieten, unterstützen wir Ihr Unternehmen genau dann, wenn es erforderlich ist. Wir bieten Ihnen ein umfassendes Dienstleistungspaket: von kurzfristiger Beschäftigung während des Urlaubs und Spitzenaufträgen bis zur Rekrutierung von Personal, das Ihren Anforderungen genau entspricht. Qualifiziert und zuverlässig",
     "text5": "Sie benötigen Verstärkung für Ihr Team, haben aber keine Zeit für eine intensive Suche? Dann nutzen Sie unseren Direktsuchservice: Unsere erfahrenen Spezialisten übernehmen den gesamten Personalauswahlprozess für Sie. Schnell und systematisch.",
@@ -30,7 +30,7 @@
     "text8": "➔ Erfahrung auf dem europäischen Markt und Berücksichtigung der Besonderheiten des Arbeitens auf dem GUS-Markt",
     "text9": "➔ Entwicklung eines Qualifizierungsplans",
     "text10": "➔ Spezielle Sprachausbildung",
-    "text11": "Als Student einer Bildungseinrichtung haben Sie die Möglichkeit, während der Sommerferien (60 oder 90 Tage) Arbeitserfahrung in Deutschland zu sammeln. Während der Arbeit folgen Sie einem festen Arbeitszeitplan gemäß den geltenden Gesetzen mit freien Tagen. Die freie Zeit können Sie nutzen, um das Land kennenzulernen und durch Europa zu reisen. Um an dem Programm teilzunehmen, werden Studenten im Tagesstudium mit Grundkenntnissen in einer Fremdsprache (Deutsch oder Englisch) eingeladen. Das Sprachniveau sollte ausreichend sein, um mit Kollegen zu kommunizieren und im Alltag zu interagieren. Bei Bedarf werden Sprachkurse angeboten.",
+    "text11": "Als Student einer Bildungseinrichtung haben Sie die Möglichkeit, während der Sommerferien (60 oder 90 Tage) Arbeitserfahrungen in Deutschland zu sammeln. Während der Arbeit folgen Sie einem festen Arbeitszeitplan gemäß den geltenden Gesetzen mit freien Tagen. Die freie Zeit können Sie nutzen, um das Land kennenzulernen und durch Europa zu reisen. Um an dem Programm teilzunehmen, werden Studenten im Präsenzstudium mit Grundkenntnissen in einer Fremdsprache (Deutsch oder Englisch) eingeladen. Das Sprachniveau sollte ausreichend sein, um mit Kollegen zu kommunizieren und im Alltag zu interagieren. Bei Bedarf werden Sprachkurse angeboten.",
     "text12": "Alle Bewerber haben einen festen Ansprechpartner, an den sie sich für Beratung und Unterstützung wenden können.",
     "text13": "Wir verfügen über ein umfangreiches Netzwerk von Kontakten zu Arbeitgebern, und wir haben langfristige Vereinbarungen für Beschäftigung auf unterschiedlichen Qualifikationsebenen - von Beschäftigung als Student während der Ferien bis zu kurzfristiger Beschäftigung als Fachkraft."
   },
@@ -39,15 +39,15 @@
     "title1": "Erstes Treffen:",
     "text1": "Füllen Sie das Kontaktformular auf unserer Website aus und teilen Sie uns die beste Zeit für einen Rückruf mit.",
     "title2": "Programmauswahl:",
-    "text2": "Während unseres Gesprächs hören wir Ihnen zu und bieten optimale Beschäftigungsmöglichkeiten für Arbeit oder Studium in Deutschland / der EU an. Wir erstellen auch einen individuellen Entwicklungsplan für Ihre Zielposition.",
+    "text2": "Während unseres Gesprächs hören wir Ihnen zu und bieten optimale Beschäftigungsmöglichkeiten für Arbeit oder Studium in Deutschland / EU an. Wir erstellen auch einen individuellen Entwicklungsplan für Ihre Zielposition.",
     "title3": "Dokumentenvorbereitung:",
     "text3": "Wir helfen Ihnen, alle erforderlichen Unterlagen für Ihre Bewerbung zusammenzustellen und beginnen mit der Bearbeitung.",
     "title4": "Online-Interview:",
     "text4": "Wir organisieren ein Online-Interview mit potenziellen Arbeitgebern oder Bildungseinrichtungen.",
     "title5": "Botschaftsbesuch:",
     "text5": "Wir bereiten Sie auf den Botschaftsbesuch vor und helfen Ihnen bei einem Vorstellungsgespräch für ein Arbeitsvisum.",
-    "title6": "Vorbereitung auf die Abreise:",
-    "text6": "Wir helfen Ihnen bei der Planung Ihrer Auslandsreise und bereiten Sie auf Ihren ersten Arbeitstag vor.",
+    "title6": "Vorbereitung:",
+    "text6": "Wir helfen Ihnen, alle erforderlichen Unterlagen für Ihre Bewerbung zusammenzustellen und beginnen mit der Bearbeitung.",
     "title7": "Unterstützung vor Ort:",
     "text7": "Wir bleiben während Ihres gesamten Aufenthalts in Deutschland mit Ihnen in Kontakt, um Ihnen bei allen aufkommenden Fragen zu helfen.",
     "title8": "Wir suchen geeignete Kandidaten entsprechend Ihren Anforderungen und führen eine Vorauswahl durch. Basierend auf unseren Empfehlungen entscheiden Sie, wen Sie zu einem Online-Bewerbungsgespräch einladen möchten.",
@@ -56,16 +56,16 @@
   },
   "questions": {
     "text": "Welche einzigartigen Vorteile erhalte ich, wenn ich Ihre Dienstleistungen für die Anstellung in Deutschland wähle?",
-    "answer": "Sie arbeiten mit einem kompetenten Partner zusammen, der reichhaltige Erfahrungen in Deutschland und Österreich hat. Zusätzlich bieten wir Beratung unter Berücksichtigung der Gesetzgebung in Deutschland und der EU. Unser Erfahrungsschatz ermöglicht es uns, auch aus den schwierigsten Situationen herauszukommen, Lösungen anzubieten und die Vor- und Nachteile jeder Option mit Ihnen zu besprechen. Wir lassen Sie mit Ihren Fragen nicht allein. Sprachbarrieren sind für uns kein Problem, wir sprechen Ihre Sprache. Wir sprechen Russisch, Kirgisisch, Deutsch und Englisch. Zögern Sie nicht, sich an uns zu wenden!",
+    "answer": "Sie arbeiten mit einem kompetenten Partner zusammen, der reichhaltige Erfahrungen in Deutschland und Österreich hat. Zusätzlich bieten wir Ihnen Beratung unter Berücksichtigung der Gesetzgebung in Deutschland und der EU. Unsere Erfahrungen ermöglicht uns, auch aus den schwierigsten Situationen herauszukommen, Lösungen anzubieten und die Vor- und Nachteile jeder Option mit Ihnen zu besprechen. Wir lassen Sie mit Ihren Fragen nicht allein. Sprachbarrieren sind für uns kein Thema, wir sprechen Ihre Sprache. Wir sprechen Russisch, Kirgisisch, Deutsch und Englisch. Zögern Sie nicht, sich an uns zu wenden!",
     "text2": "Welche zusätzlichen Dienstleistungen bieten Sie an, um den Einstellungsprozess in Deutschland zu erleichtern?",
-    "answer2": "Allgemeine Beratung zu Beschäftigungsfragen, spezialisierte Deutschkurse für Ihr Profil und die ausgewählte Position, Online-Training, Unterstützung bei der Vorbereitung auf die Arbeit und während des Aufenthalts in Deutschland sowie individuelle Online-Beratung zu Ihren Fragen.",
-    "text3": "Wie unterstützt Ihr Unternehmen Kunden während des Einstellungsprozesses und nach Abschluss?",
-    "answer3": "Wir bieten verschiedene Beratungen zu verschiedenen Kooperationsfragen an, von Beschäftigungsberatungen über die Dokumentenvorbereitung bis hin zur Schulung in verschiedenen Spezialtrainings, Begleitung während Ihres Aufenthalts in Deutschland und der EU, Notfallhilfe in kritischen Situationen und Unterstützung bei Ihren verschiedenen Anliegen.",
+    "answer2": "Allgemeine Beratung zu Beschäftigungsmöglichkeiten, spezialisierte Deutschkurse für Ihr Profil und die ausgewählte Position, Online-Training, Unterstützung bei der Vorbereitung auf die Arbeit und während des Aufenthalts in Deutschland sowie individuelle Online-Beratung zu Ihren Fragen.",
+    "text3": "Wie unterstützt Ihr Unternehmen Kunden während des Bewerbungsprozesses und nach Abschluss?",
+    "answer3": "Wir bieten Ihnen umfangreiche Beratungen zu verschiedenen Fragen der Zusammenarbeit an, von Erstgesprächsberatungen über die Unterlagenvorbereitung bis hin zur Schulung in verschiedenen Spezialtrainings, Begleitung während Ihres Aufenthalts in Deutschland und der EU, Notfallhilfe in kritischen Situationen und Unterstützung bei Ihren verschiedenen Anliegen.",
     "text4": "Wie unterstützt Ihr Unternehmen Kunden während des Einstellungsprozesses und nach Abschluss?",
-    "answer4": "Füllen Sie das Kontaktformular aus, wählen Sie das Anliegen und teilen Sie uns die beste Zeit für die Rückmeldung mit (Telefonnummer oder E-Mail, Kontaktzeit und Tag der Kontaktaufnahme). Unser Experte wird sich so schnell wie möglich mit Ihnen in Verbindung setzen."
+    "answer4": "Füllen Sie das Kontaktformular aus, wählen Sie das Anliegen und teilen Sie uns die beste Zeit für die Rückmeldung mit (Telefonnummer oder E-Mail, Uhrzeit und der gewünschte Tag für unsren Rückruf). Unser Mitarbeiter wird sich so schnell wie möglich mit Ihnen in Verbindung setzen."
   },
   "team": {
-    "text": "Wir sind ein junges, aber erfahrenes Team, das seit 1999 in Deutschland und der EU tätig ist. In dieser Zeit haben wir umfassende Erfahrungen im Bereich Bildung, Projektmanagement und EU-Gesetzgebung gesammelt.",
+    "text": "Wir sind ein junges, aber erfahrenes Team, das seit 1999 in Deutschland und der EU tätig ist. In dieser Zeit haben wir umfassende Erfahrungen auf dem Gebiet Bildung, Projektmanagement und Arbeitsrecht in EU gesammelt.    ",
     "text2": "Wir spezialisieren uns auf Dienstleistungen und die Kommunikation mit Bewerbern aus den GUS-Ländern und Arbeitgebern in der EU.",
     "text3": "Unsere Netzwerk von Kontakten zu Arbeitgebern ist umfangreich, und wir haben langfristige Vereinbarungen für Beschäftigung auf verschiedenen Qualifikationsebenen. Egal, ob Sie nach einer temporären Beschäftigung während der Studienferien oder einer kurzfristigen Anstellung als Spezialist suchen, wir sind bereit, Ihnen bei der Suche nach einer geeigneten Position zu helfen.",
     "text4": "Wir sind stolz auf unsere Arbeit und streben danach, die besten Möglichkeiten für diejenigen zu schaffen, die in Deutschland arbeiten suchen. Unser Team steht Ihnen jederzeit gerne bei diesem wichtigen Prozess zur Verfügung."
@@ -85,8 +85,8 @@
     "text2": "➔Interessieren Sie sich für unsere Dienstleistungen?",
     "text3": "➔Sind Sie Arbeitgeber?",
     "text4": "➔Sind Sie Student?",
-    "text6": "➔ Sind Sie ein Fachmann?",
-    "text5": "Formular ausfüllen"
+    "text6": "➔ Sind Sie  Fachmann?",
+    "text5": "Bitte füllen das Formular aus"
   },
   "About": {
     "text": "Wir bieten Studenten aus Zentralasien eine einzigartige Gelegenheit, in Deutschland zu arbeiten.",
@@ -95,13 +95,13 @@
     "Work": "Arbeiten als Student",
     "interes": "Wenn Sie Interesse an diesem Programm haben, füllen Sie bitte das Kontaktformular aus.",
     "if": "Wenn Sie einen Abschluss als Spezialist haben, z.B. als Lastwagenfahrer, Koch, Elektriker, Krankenschwester oder Arzt, und Sie erste Berufserfahrung in Ihrem Beruf gesammelt haben, kontaktieren Sie uns! Wir finden für Sie kurzfristige (3 bis 12 Monate) und langfristige Beschäftigung. Wir suchen für Sie einen Arbeitgeber, bereiten Sie auf das Vorstellungsgespräch vor und unterstützen Sie bei Fragen zur Beantragung des Arbeitsvisums. Bei Bedarf bieten wir Vorbereitungskurse in Fremdsprachen und Fachrichtungen an.",
-    "text2": "Unsere Hauptgeschäftsbereiche:",
+    "text2": "Unsere Schwerpunkte sind:",
     "text3": "- Beratung und Erbringung verschiedener Dienstleistungen für Unternehmen und Unternehmer im Bereich Innovation",
-    "text4": "- Rekrutierung von Fachpersonal für Arbeit im Ausland",
-    "text5": "- Beratung und Erbringung verschiedener Dienstleistungen für Unternehmen und Unternehmer im Bereich Innovation",
+    "text4": "- Personalvermittlung von Fachpersonal für Arbeit im Ausland",
+    "text5": "-Consulting und Coaching",
     "text6": "Unsere Dienstleistungen für Mitarbeiter:",
     "text7": "- Arbeit während der Semesterferien für Studenten",
-    "text8": "- Arbeit als qualifizierter Spezialist / Profi mit Berufserfahrung",
+    "text8": "- Arbeit als qualifizierter Spezialist / Fachmann mit Berufserfahrung",
     "text9": "- Arbeit als hochqualifizierter Experte",
     "text10": "ZESS-Consulting – Ihr verlässlicher Partner!"
   },
