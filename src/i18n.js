@@ -1,21 +1,38 @@
+// Import necessary dependencies
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import ru from "../src/locales/ru/translation.json"
-import ger from "../src/locales/ger/translation.json"
-import en from "../src/locales/en/translation.json"
+import Backend from "i18next-http-backend"; // Import Backend
+import LanguageDetector from 'i18next-browser-languagedetector';
+import ru from "../src/locales/ru/translation.json";
+import ger from "../src/locales/ger/translation.json";
+import en from "../src/locales/en/translation.json";
 
-i18n.use(initReactI18next).init({
-  resources: {
-    en: { translation: en },
-    ger: { translation: ger },
-    ru: { translation: ru },
-  },
-  lng: "ru",
-  fallbackLng: "ru",
+// Define supported languages
+const languages = ["en", "ger", "ru"];
 
-  interpolation: {
-    escapeValue: false,
-  },
-});
+i18n
+  .use(Backend)
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    supportedLngs: languages,
+    fallbackLng: 'ru',
+    debug: false,
+    resources: {
+      en: { translation: en },
+      ger: { translation: ger },
+      ru: { translation: ru },
+    },
+    react: {
+      useSuspense: false,
+    },
+    backend: {
+      loadPath: '/components/locales/{{lng}}/translation.json',
+    },
+    detection: {
+      order: ['cookie', 'localStorage'],
+      caches: ['cookie'],
+    },
+  });
 
 export default i18n;
