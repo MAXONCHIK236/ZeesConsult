@@ -1,4 +1,4 @@
-import React from "react";
+import {React,useState} from "react";
 import styles from "./Header.module.scss";
 import logo from "../../assents/header_img/logo.svg";
 import headerArrow from "../../assents/header_img/headerArrow.svg";
@@ -8,6 +8,14 @@ import { useTranslation } from "react-i18next";
 import TranslationDropdown from "../TranslationDrop/TranslationDropdown";
 function Header() {
   const { t } = useTranslation();
+  const [,setBurgerMenuOpen] = useState(false);
+  const closeBurgerMenu = () => {
+    setBurgerMenuOpen(false);
+  }
+  const handleLanguageChange = () => {
+    closeBurgerMenu();
+  };
+
   return (
     <div className={styles.header}>
       <div className="container">
@@ -35,7 +43,7 @@ function Header() {
             <BurgerMenu />
           </div>
           <div className={styles.translation}>
-            <TranslationDropdown />
+            <TranslationDropdown onChange={handleLanguageChange} />
           </div>
         </div>
       </div>

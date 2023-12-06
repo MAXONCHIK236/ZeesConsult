@@ -3,11 +3,19 @@ import styles from "./BurgerMenu.module.scss";
 import Burger from "../../assents/header_img/headerBurgerMenu.svg";
 import TranslationDropdown from "../TranslationDrop/TranslationDropdown";
 import { useTranslation } from "react-i18next";
-const BurgerMenu = () => {
+
+const BurgerMenu = ({ isOpen, onClose }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const { t } = useTranslation();
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+  };
+
+  const handleMenuItemClick = () => {
+    setMenuOpen(false);
+    if (onClose) {
+      onClose();
+    }
   };
 
   return (
@@ -21,21 +29,33 @@ const BurgerMenu = () => {
       {menuOpen && (
         <div className={styles.menu_items}>
           <ul>
-            <TranslationDropdown />
             <li>
-              <a href="/">{t("header.home")}</a>
+              <TranslationDropdown onChange={handleMenuItemClick} />
             </li>
             <li>
-              <a href="/AboutUs"> {t("header.about")} </a>
+              <a href="/" onClick={handleMenuItemClick}>
+                {t("header.home")}
+              </a>
             </li>
             <li>
-              <a href="/ServicePersonal">{t("header.forpersonal")}</a>
+              <a href="/AboutUs" onClick={handleMenuItemClick}>
+                {t("header.about")}
+              </a>
             </li>
             <li>
-              <a href="/ServiceEmployer">{t("header.foremployer")} </a>
+              <a href="/ServicePersonal" onClick={handleMenuItemClick}>
+                {t("header.forpersonal")}
+              </a>
             </li>
             <li>
-              <a href="/Contact">{t("header.contact")}</a>
+              <a href="/ServiceEmployer" onClick={handleMenuItemClick}>
+                {t("header.foremployer")}
+              </a>
+            </li>
+            <li>
+              <a href="/Contact" onClick={handleMenuItemClick}>
+                {t("header.contact")}
+              </a>
             </li>
           </ul>
         </div>

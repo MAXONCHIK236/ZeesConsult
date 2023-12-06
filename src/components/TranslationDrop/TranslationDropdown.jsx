@@ -2,12 +2,15 @@ import React, { useState } from "react";
 import i18n from "i18next"; 
 import styles from "./TranslationDropDown.module.scss";
 import RussiaFlag from "../../assents/header_img/FlagRussia.svg";
-const TranslationDropdown = () => {
+const TranslationDropdown = ({onChange }) => {
   const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);
   const handleLanguageChange = (event) => {
     const newLanguage = event.target.value;
     setSelectedLanguage(newLanguage);
     i18n.changeLanguage(newLanguage);
+    if (onChange) {
+      onChange();
+    }
   };
   const languageOptions = [
     { value: "en", label: "English", icon: RussiaFlag },

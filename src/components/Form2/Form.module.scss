@@ -63,4 +63,13 @@
       height:auto ;
   }
   }
+  @media  (max-width: 1000px){
+    .Card{
+      width: 100% !important;
+      margin-bottom: 30px;
+    }
+    .Form{
+      height:auto ;
+  }
+  }
 }

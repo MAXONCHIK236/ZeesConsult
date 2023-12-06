@@ -90,4 +90,28 @@
       }
     }
   }
+  @media  (max-width: 1000px){
+    .guarantee__flex{
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 45px !important;
+      .guarantee__right {
+        display: flex;
+        flex-direction: column;
+        gap: 54px;
+        align-items: flex-start;
+        width: 100% !important;
+        p{
+          font-size: 14px ;
+        }
+        img{
+          display: none;
+        }
+      }
+      .guarantee__left{
+        width: 100% !important;
+      }
+    }
+  }
 }
