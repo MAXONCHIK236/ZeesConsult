@@ -90,6 +90,9 @@
           font-size: 14px !important;
         }
     }
+    .dropdown{
+      display: none;
+    }
  
 }
 @media  (max-width: 555px) {
@@ -97,8 +100,10 @@
       display: none !important;
       p,a{
         font-size: 14px !important;
-      }
+      }    
   }
-
+  .dropdown{
+    display: none;
+  }
 }
 }
