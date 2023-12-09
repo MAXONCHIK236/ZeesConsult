@@ -174,7 +174,7 @@ const ContactForm = () => {
                 } else {
                   setPasswordError("");
                 }
-                if (!/^\d+$/.test(inputValue)) {
+                if (!/^\d$/.test(inputValue)) {
                   setPasswordError("Phone number should contain only numbers.");
                 } else {
                   setPasswordError("");
