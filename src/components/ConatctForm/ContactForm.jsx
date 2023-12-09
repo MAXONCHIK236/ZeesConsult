@@ -71,11 +71,10 @@ const ContactForm = () => {
     setTimeout(() => {
       setButtonDisabled(false);
     }, 10000);
-
     if (isValid) {
-      const serviceId = "service_ec0nuv9";
-      const templateId = "template_lnb53ok";
-      const userId = "ae5-bU9qaERVPbxVT";
+      const serviceId = "service_nayws9n";
+      const templateId = "template_s4zk4oh";
+      const userId = "-8JKns1ENaDmu0W-m";
 
       let selectedText = "";
       if (subject === "option1") {
@@ -94,7 +93,6 @@ const ContactForm = () => {
         text,
         password,
       };
-
       emailjs
         .send(serviceId, templateId, templateParams, userId)
         .then(() => {
@@ -110,9 +108,8 @@ const ContactForm = () => {
         .catch((error) => {
           console.error("Error sending email", error);
         });
-    }
   };
-
+}
   return (
     <div className={styles.ContactForm}>
       {isFormSubmitted ? (
@@ -307,5 +304,6 @@ const ContactForm = () => {
     </div>
   );
 };
+
 
 export default ContactForm;
