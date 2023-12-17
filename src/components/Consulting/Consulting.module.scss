@@ -24,9 +24,16 @@
     .right {
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
       align-items: center;
-      gap: 93px;
+      gap: 8.5vw;
       width: 39%;
+      height: 49vw;
+    }
+    .searchers{
+      p{
+        font-size:24px ;
+      }
     }
   }
   .flex {
