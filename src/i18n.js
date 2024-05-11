@@ -8,7 +8,7 @@ import ger from "../src/locales/ger/translation.json";
 import en from "../src/locales/en/translation.json";
 
 // Define supported languages
-const languages = ["en", "ger", "ru"];
+const languages = ["ger", "en", "ru"];
 
 i18n
   .use(Backend)
@@ -16,7 +16,7 @@ i18n
   .use(initReactI18next)
   .init({
     supportedLngs: languages,
-    fallbackLng: 'ru',
+    fallbackLng: 'ger',
     debug: false,
     resources: {
       en: { translation: en },
